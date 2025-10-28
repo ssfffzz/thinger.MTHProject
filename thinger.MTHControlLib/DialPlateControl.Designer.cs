@@ -42,7 +42,7 @@
             // 
             this.dialPlate1.AlarmAngle = 120F;
             this.dialPlate1.AlarmColor = System.Drawing.Color.Blue;
-            this.dialPlate1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(40)))), ((int)(((byte)(91)))));
+            this.dialPlate1.BackColor = System.Drawing.Color.Transparent;
             this.dialPlate1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dialPlate1.ForeColor = System.Drawing.Color.White;
             this.dialPlate1.Humidity = 10F;

@@ -15,6 +15,12 @@ namespace thinger.MTHProject
         public FrmMonitor()
         {
             InitializeComponent();
+            //样式相关的设置,防止闪烁
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+            this.SetStyle(ControlStyles.DoubleBuffer, true);
+            this.SetStyle(ControlStyles.ResizeRedraw, true);
+            this.SetStyle(ControlStyles.Selectable, true);
+            this.SetStyle(ControlStyles.SupportsTransparentBackColor, true);
         }
     }
 }

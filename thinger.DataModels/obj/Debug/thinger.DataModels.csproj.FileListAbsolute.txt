@@ -22,3 +22,9 @@ C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\th
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.CoreCompileInputs.cache
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.dll
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.pdb
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\bin\Debug\thinger.DataModels.dll
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\bin\Debug\thinger.DataModels.pdb
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.AssemblyReference.cache
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.dll
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.pdb

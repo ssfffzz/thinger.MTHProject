@@ -16,5 +16,20 @@ namespace thinger.MTHControlLib
         {
             InitializeComponent();
         }
+
+        //导航标题
+        private string title = "标题名称";
+        [Category("自定义控件")]
+        [Description("获取或显示标题名称的文本")]
+        public string Title
+        {
+            get { return title; }
+            set
+            {
+                title = value;
+                this.lblTitle.Text = title;
+            }
+        }
+
     }
 }
