@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F116067-DB92-421D-9CE8-C3C1B11A0D23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>thinger.MTHProject</RootNamespace>
+    <AssemblyName>thinger.MTHProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2.系统配置\FrmParamSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.系统配置\FrmParamSet.Designer.cs">
+      <DependentUpon>FrmParamSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.主窗体+集中监控\FrmMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.主窗体+集中监控\FrmMonitor.Designer.cs">
+      <DependentUpon>FrmMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.主窗体+集中监控\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.主窗体+集中监控\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3.配方管理\FrmRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.配方管理\FrmRecipe.Designer.cs">
+      <DependentUpon>FrmRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4.报警追溯\FrmAlarmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.报警追溯\FrmAlarmQuery.Designer.cs">
+      <DependentUpon>FrmAlarmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.历史趋势\FrmHistoryQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.历史趋势\FrmHistoryQuery.Designer.cs">
+      <DependentUpon>FrmHistoryQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6.用户管理\FrmUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6.用户管理\FrmUserManage.Designer.cs">
+      <DependentUpon>FrmUserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="1.主窗体+集中监控\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.系统配置\FrmParamSet.resx">
+      <DependentUpon>FrmParamSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.配方管理\FrmRecipe.resx">
+      <DependentUpon>FrmRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.报警追溯\FrmAlarmQuery.resx">
+      <DependentUpon>FrmAlarmQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.历史趋势\FrmHistoryQuery.resx">
+      <DependentUpon>FrmHistoryQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6.用户管理\FrmUserManage.resx">
+      <DependentUpon>FrmUserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="1.主窗体+集中监控\FrmMonitor.resx">
+      <DependentUpon>FrmMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\LeftSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\LeftUnSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\manage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\RightSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\RightUnSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\TitleBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\update.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\变量配置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\取消.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\取消设置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\确定.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\确定设置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\BackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\conn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Current.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\DBConn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\thinger.DataModels\thinger.DataModels.csproj">
+      <Project>{7940abee-248e-467a-a16d-347410bb3cb2}</Project>
+      <Name>thinger.DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.MTHControlLib\thinger.MTHControlLib.csproj">
+      <Project>{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}</Project>
+      <Name>thinger.MTHControlLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
