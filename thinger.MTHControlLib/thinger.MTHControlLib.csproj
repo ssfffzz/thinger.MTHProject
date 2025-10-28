@@ -73,6 +73,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TitleShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TitleShow.Designer.cs">
+      <DependentUpon>TitleShow.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DialPlate.resx">
@@ -88,6 +94,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="TitleShow.resx">
+      <DependentUpon>TitleShow.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LeftSelected.png" />
@@ -100,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RightUnSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

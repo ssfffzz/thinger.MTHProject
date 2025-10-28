@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dialPlateControl1 = new thinger.MTHControlLib.DialPlateControl();
             this.SuspendLayout();
             // 
             // label1
@@ -42,20 +41,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "集中监控";
             // 
-            // dialPlateControl1
-            // 
-            this.dialPlateControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(40)))), ((int)(((byte)(91)))));
-            this.dialPlateControl1.Location = new System.Drawing.Point(75, 81);
-            this.dialPlateControl1.Name = "dialPlateControl1";
-            this.dialPlateControl1.Size = new System.Drawing.Size(358, 226);
-            this.dialPlateControl1.TabIndex = 1;
-            // 
             // FrmMonitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1394, 716);
-            this.Controls.Add(this.dialPlateControl1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMonitor";
@@ -68,6 +58,5 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private MTHControlLib.DialPlateControl dialPlateControl1;
     }
 }

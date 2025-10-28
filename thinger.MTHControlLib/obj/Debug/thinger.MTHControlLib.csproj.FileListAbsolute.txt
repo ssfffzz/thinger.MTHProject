@@ -36,3 +36,6 @@ C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\th
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.dll
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.pdb
 C:\Users\yl\Desktop\C#高阶内容\练习程序\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.DialPlateControl.resources
+C:\Users\admin\Desktop\C#高阶\项目练习\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.DialPlate.resources
+C:\Users\admin\Desktop\C#高阶\项目练习\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.DialPlateControl.resources
+C:\Users\admin\Desktop\C#高阶\项目练习\MTHProject\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.TitleShow.resources

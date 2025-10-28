@@ -1,92 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject(2)\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\titleshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\titleshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject(2)\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject(2)\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject(2)\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7940ABEE-248E-467A-A16D-347410BB3CB2}|thinger.DataModels\\thinger.DataModels.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.datamodels\\projectenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7940ABEE-248E-467A-A16D-347410BB3CB2}|thinger.DataModels\\thinger.DataModels.csproj|solutionrelative:thinger.datamodels\\projectenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\6.\u7528\u6237\u7BA1\u7406\\frmusermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\6.\u7528\u6237\u7BA1\u7406\\frmusermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\5.\u5386\u53F2\u8D8B\u52BF\\frmhistoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\5.\u5386\u53F2\u8D8B\u52BF\\frmhistoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\4.\u62A5\u8B66\u8FFD\u6EAF\\frmalarmquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\4.\u62A5\u8B66\u8FFD\u6EAF\\frmalarmquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\3.\u914D\u65B9\u7BA1\u7406\\frmrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\3.\u914D\u65B9\u7BA1\u7406\\frmrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|thinger.MTHControlLib||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7940ABEE-248E-467A-A16D-347410BB3CB2}|thinger.DataModels\\thinger.DataModels.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.datamodels\\projectenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7940ABEE-248E-467A-A16D-347410BB3CB2}|thinger.DataModels\\thinger.DataModels.csproj|solutionrelative:thinger.datamodels\\projectenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\dialplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\panelex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\navibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\6.\u7528\u6237\u7BA1\u7406\\frmusermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\6.\u7528\u6237\u7BA1\u7406\\frmusermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\5.\u5386\u53F2\u8D8B\u52BF\\frmhistoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\5.\u5386\u53F2\u8D8B\u52BF\\frmhistoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\4.\u62A5\u8B66\u8FFD\u6EAF\\frmalarmquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\4.\u62A5\u8B66\u8FFD\u6EAF\\frmalarmquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\3.\u914D\u65B9\u7BA1\u7406\\frmrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\3.\u914D\u65B9\u7BA1\u7406\\frmrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\2.\u7CFB\u7EDF\u914D\u7F6E\\frmparamset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|thinger.MTHProject||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\mthproject\\thinger.mthproject\\thinger.mthcontrollib\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}|thinger.MTHControlLib\\thinger.MTHControlLib.csproj|solutionrelative:thinger.mthcontrollib\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -100,26 +112,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DialPlate.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
-              "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlate.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
-              "RelativeToolTip": "thinger.MTHControlLib\\DialPlate.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T02:23:17.282Z",
+              "DocumentIndex": 4,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\Properties\\Resources.resx",
+              "RelativeToolTip": "thinger.MTHControlLib\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-28T08:49:41.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TitleShow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\TitleShow.cs",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\TitleShow.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\TitleShow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHControlLib\\TitleShow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:48:51.71Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DialPlateControl.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
               "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlateControl.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
               "RelativeToolTip": "thinger.MTHControlLib\\DialPlateControl.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwEYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T02:12:38.128Z",
               "EditorCaption": ""
@@ -128,9 +151,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DialPlateControl.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs",
               "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlateControl.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs [\u8BBE\u8BA1]",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlateControl.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "thinger.MTHControlLib\\DialPlateControl.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T02:10:55.831Z",
@@ -138,48 +161,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DialPlate.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
-              "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlate.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "thinger.MTHControlLib\\DialPlate.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:49:42.802Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PanelEx.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
-              "RelativeDocumentMoniker": "thinger.MTHControlLib\\PanelEx.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "thinger.MTHControlLib\\PanelEx.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:56:24.27Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PanelEx.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
-              "RelativeDocumentMoniker": "thinger.MTHControlLib\\PanelEx.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
-              "RelativeToolTip": "thinger.MTHControlLib\\PanelEx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:56:26.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "NaviButton.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
               "RelativeDocumentMoniker": "thinger.MTHControlLib\\NaviButton.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs [\u8BBE\u8BA1]",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "thinger.MTHControlLib\\NaviButton.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T03:16:53.665Z",
@@ -187,36 +173,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "FrmMonitor.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:21:05.611Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "thinger.MTHControlLib",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
+              "RelativeToolTip": "thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-17T03:18:36.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:25:11.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "FrmMain.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:53:32.459Z",
+              "WhenOpened": "2025-10-16T06:53:32.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectEnum.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.DataModels\\ProjectEnum.cs",
+              "RelativeDocumentMoniker": "thinger.DataModels\\ProjectEnum.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.DataModels\\ProjectEnum.cs",
+              "RelativeToolTip": "thinger.DataModels\\ProjectEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:46:25.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialPlate.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlate.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHControlLib\\DialPlate.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:49:42.802Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
-              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
-              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwFAAAAA/AAAAAAAAAA==",
+              "Title": "DialPlate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\DialPlate.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\DialPlate.cs",
+              "RelativeToolTip": "thinger.MTHControlLib\\DialPlate.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T01:09:08.247Z",
+              "WhenOpened": "2025-10-28T02:23:17.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "PanelEx.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\PanelEx.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
+              "RelativeToolTip": "thinger.MTHControlLib\\PanelEx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:56:26.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PanelEx.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs",
+              "RelativeDocumentMoniker": "thinger.MTHControlLib\\PanelEx.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\PanelEx.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHControlLib\\PanelEx.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:56:24.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwFAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:09:08.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "NaviButton.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
               "RelativeDocumentMoniker": "thinger.MTHControlLib\\NaviButton.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\NaviButton.cs",
               "RelativeToolTip": "thinger.MTHControlLib\\NaviButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,102 +307,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "FrmMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
               "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.Designer.cs",
               "ViewState": "AgIAAFYBAAAAAAAAAAAuwFYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T06:38:05.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T06:38:05.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FrmUserManage.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\6.\u7528\u6237\u7BA1\u7406\\FrmUserManage.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T05:38:10.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "FrmHistoryQuery.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\5.\u5386\u53F2\u8D8B\u52BF\\FrmHistoryQuery.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T05:36:47.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmMonitor.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(1)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject(1)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T03:21:05.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProjectEnum.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.DataModels\\ProjectEnum.cs",
-              "RelativeDocumentMoniker": "thinger.DataModels\\ProjectEnum.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.DataModels\\ProjectEnum.cs",
-              "RelativeToolTip": "thinger.DataModels\\ProjectEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:46:25.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "FrmAlarmQuery.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\4.\u62A5\u8B66\u8FFD\u6EAF\\FrmAlarmQuery.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T05:35:14.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "FrmRecipe.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\3.\u914D\u65B9\u7BA1\u7406\\FrmRecipe.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T05:32:37.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "FrmParamSet.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "..\\..\\..\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T05:24:09.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "FrmParamSet.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
               "RelativeToolTip": "thinger.MTHProject\\2.\u7CFB\u7EDF\u914D\u7F6E\\FrmParamSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,34 +386,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "thinger.MTHControlLib",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
-              "RelativeDocumentMoniker": "thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
-              "RelativeToolTip": "thinger.MTHControlLib\\thinger.MTHControlLib.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-17T03:18:36.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FrmMonitor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T05:25:11.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "thinger.MTHProject",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\thinger.MTHProject.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\thinger.MTHProject.csproj",
               "RelativeDocumentMoniker": "thinger.MTHProject\\thinger.MTHProject.csproj",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject(2)\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\thinger.MTHProject.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\\u9879\u76EE\u7EC3\u4E60\\MTHProject\\thinger.MTHProject\\thinger.MTHProject\\thinger.MTHProject.csproj",
               "RelativeToolTip": "thinger.MTHProject\\thinger.MTHProject.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-10-16T07:54:41.324Z"

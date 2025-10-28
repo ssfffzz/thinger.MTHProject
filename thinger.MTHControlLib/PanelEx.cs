@@ -10,7 +10,7 @@ using System.Windows.Forms;//Panel在这个命名空间里面
 
 namespace thinger.MTHControlLib
 {
-    public partial class PanelEx : Panel
+    public partial class PanelEx : Panel  //新建组件类的意思是扩展Panel控件，所以继承自Panel，新建用户控件是把原有的控件组合在一起
     {
         public PanelEx()
         {
