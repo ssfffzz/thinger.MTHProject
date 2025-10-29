@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBoxEx.Designer.cs">
+      <DependentUpon>CheckBoxEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="DialPlate.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,6 +66,12 @@
     </Compile>
     <Compile Include="NaviButton.Designer.cs">
       <DependentUpon>NaviButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelEnhanced.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PanelEnhanced.Designer.cs">
+      <DependentUpon>PanelEnhanced.cs</DependentUpon>
     </Compile>
     <Compile Include="PanelEx.cs">
       <SubType>Component</SubType>

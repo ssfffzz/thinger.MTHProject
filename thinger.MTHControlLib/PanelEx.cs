@@ -101,9 +101,6 @@ namespace thinger.MTHControlLib
             }
         }
 
-
-
-
         protected override void OnPaint(PaintEventArgs e) //重载OnPaint这个方法
         {
             base.OnPaint(e);//调用基类的OnPaint方法，确保Panel的其他部分正常绘制
@@ -118,8 +115,6 @@ namespace thinger.MTHControlLib
             float height = this.Height - topGap - bottomGap - (borderWidth * 1.0f);
             //【4】绘制图形
             graphics.DrawRectangle(pen, x, y, width, height);
-
-
 
             //using (Pen pen = new Pen(borderColor, borderWidth))
             //{
