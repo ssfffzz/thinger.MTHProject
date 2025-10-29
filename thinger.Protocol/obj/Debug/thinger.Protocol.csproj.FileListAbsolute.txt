@@ -1,0 +1,6 @@
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\bin\Debug\thinger.Protocol.dll
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\bin\Debug\thinger.Protocol.pdb
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\obj\Debug\thinger.Protocol.csproj.AssemblyReference.cache
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\obj\Debug\thinger.Protocol.csproj.CoreCompileInputs.cache
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\obj\Debug\thinger.Protocol.dll
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Protocol\obj\Debug\thinger.Protocol.pdb

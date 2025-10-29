@@ -31,12 +31,11 @@
             this.components = new System.ComponentModel.Container();
             SeeSharpTools.JY.GUI.EasyChartXSeries easyChartXSeries1 = new SeeSharpTools.JY.GUI.EasyChartXSeries();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMonitor));
-            this.label1 = new System.Windows.Forms.Label();
             this.easyChartX1 = new SeeSharpTools.JY.GUI.EasyChartX();
             this.lst_info = new System.Windows.Forms.ListView();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.checkBoxEx9 = new thinger.MTHControlLib.CheckBoxEx();
             this.checkBoxEx10 = new thinger.MTHControlLib.CheckBoxEx();
             this.checkBoxEx11 = new thinger.MTHControlLib.CheckBoxEx();
@@ -60,16 +59,6 @@
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
             this.panelEnhanced1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(1049, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "集中监控";
             // 
             // easyChartX1
             // 
@@ -234,14 +223,6 @@
             this.lst_info.UseCompatibleStateImageBehavior = false;
             this.lst_info.View = System.Windows.Forms.View.Details;
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "info.png");
-            this.imageList1.Images.SetKeyName(1, "warning.png");
-            this.imageList1.Images.SetKeyName(2, "error.png");
-            // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "日志时间";
@@ -251,6 +232,14 @@
             // 
             this.columnHeader2.Text = "日志内容";
             this.columnHeader2.Width = 260;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "info.png");
+            this.imageList1.Images.SetKeyName(1, "warning.png");
+            this.imageList1.Images.SetKeyName(2, "error.png");
             // 
             // checkBoxEx9
             // 
@@ -569,20 +558,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1394, 716);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panelEnhanced1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMonitor";
             this.Text = "集中监控";
             this.panelEnhanced1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private MTHControlLib.DialPlateControl dialPlateControl1;
         private MTHControlLib.DialPlateControl dialPlateControl2;
         private MTHControlLib.DialPlateControl dialPlateControl3;

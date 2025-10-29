@@ -1,0 +1,12 @@
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\bin\Debug\thinger.DataConvert.dll
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\bin\Debug\thinger.DataConvert.pdb
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.csproj.CoreCompileInputs.cache
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.dll
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.pdb
+C:\Users\thinger.cn\Desktop\thinger.DataConvertHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.csproj.AssemblyReference.cache
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\bin\Debug\thinger.DataConvert.dll
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\bin\Debug\thinger.DataConvert.pdb
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.csproj.CoreCompileInputs.cache
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.dll
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.pdb
+C:\Users\thinger.cn\Desktop\thinger.MelsecHelper\thinger.DataConvert\obj\Debug\thinger.DataConvert.csproj.AssemblyReference.cache
