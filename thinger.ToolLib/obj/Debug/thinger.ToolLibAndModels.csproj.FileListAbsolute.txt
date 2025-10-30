@@ -1,0 +1,2 @@
+C:\Users\THINGER\Desktop\专栏7\thinger.MultiTHMonitorProject\thinger.ToolLib\obj\Debug\thinger.ToolLibAndModels.csproj.AssemblyReference.cache
+C:\Users\THINGER\Desktop\专栏7\thinger.MultiTHMonitorProject\thinger.ToolLib\obj\Debug\thinger.ToolLibAndModels.csproj.CoreCompileInputs.cache

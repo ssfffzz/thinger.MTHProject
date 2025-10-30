@@ -13,19 +13,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.数据实体类", "6.数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.DataModels", "thinger.DataModels\thinger.DataModels.csproj", "{7940ABEE-248E-467A-A16D-347410BB3CB2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.设备通信层（读取数据给到对象树）", "2.设备通信层（读取数据给到对象树）", "{812BA1A2-E83A-4883-B389-336A76F09A61}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.通用工具库", "5.通用工具库", "{52E7F3B5-38F3-4FFD-9B9D-00522CB34FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.Communication", "thinger.Communication\thinger.Communication.csproj", "{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.ToolLib", "thinger.ToolLib\thinger.ToolLib.csproj", "{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.数据业务层", "7.数据业务层", "{63F29EC1-7B07-453F-BDB5-CEF7A6D81990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.DataBLL", "thinger.DataBLL\thinger.DataBLL.csproj", "{5CAE2FFF-4528-4AB1-B883-F797856B9D0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.数据操作层（针对数据库或文件操作）", "8.数据操作层（针对数据库或文件操作）", "{74CBEE77-4CC5-489F-9848-62E880FBD7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.DAL", "thinger.DAL\thinger.DAL.csproj", "{65D8321B-9CD6-435C-941C-2423F9EAA46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.设备协议层（封装指定的通信协议）", "4.设备协议层（封装指定的通信协议）", "{EE651469-EE57-48C4-B0E0-F7E53401CC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.Protocol", "thinger.Protocol\thinger.Protocol.csproj", "{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.Communication", "thinger.Communication\thinger.Communication.csproj", "{D600E970-AFD1-4EDF-9A43-C2B857F2993C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.设备通信层（读取数据给到对象树）", "2.设备通信层（读取数据给到对象树）", "{B8607203-6E3A-44C0-835A-5E2DAADBC382}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.DataConvertLib", "thinger.DataConvertLib\thinger.DataConvertLib.csproj", "{7E83863B-7ABB-43B2-8F20-CF82D9E8D965}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.设备模型层（封装对象树配置文件）", "3.设备模型层（封装对象树配置文件）", "{88AA9D70-2F5C-4DA9-8890-7931B653E720}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.设备模型层（封装对象树配置文件）", "3.设备模型层（封装对象树配置文件）", "{B69F941C-BC98-4177-9A35-9A469EF7FD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.EquipModel", "thinger.EquipModel\thinger.EquipModel.csproj", "{17F95AD4-27E9-4888-8391-A3A697C0B860}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.设备协议层（封装指定的通信协议）", "4.设备协议层（封装指定的通信协议）", "{BCA73A6B-25AB-48E5-93C3-5D155CF04FF1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.Protocol", "thinger.Protocol\thinger.Protocol.csproj", "{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.EquipModel", "thinger.EquipModel\thinger.EquipModel.csproj", "{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,22 +57,34 @@ Global
 		{7940ABEE-248E-467A-A16D-347410BB3CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7940ABEE-248E-467A-A16D-347410BB3CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7940ABEE-248E-467A-A16D-347410BB3CB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAE2FFF-4528-4AB1-B883-F797856B9D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAE2FFF-4528-4AB1-B883-F797856B9D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAE2FFF-4528-4AB1-B883-F797856B9D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAE2FFF-4528-4AB1-B883-F797856B9D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D8321B-9CD6-435C-941C-2423F9EAA46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D8321B-9CD6-435C-941C-2423F9EAA46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D8321B-9CD6-435C-941C-2423F9EAA46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D8321B-9CD6-435C-941C-2423F9EAA46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D600E970-AFD1-4EDF-9A43-C2B857F2993C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D600E970-AFD1-4EDF-9A43-C2B857F2993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D600E970-AFD1-4EDF-9A43-C2B857F2993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D600E970-AFD1-4EDF-9A43-C2B857F2993C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17F95AD4-27E9-4888-8391-A3A697C0B860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17F95AD4-27E9-4888-8391-A3A697C0B860}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17F95AD4-27E9-4888-8391-A3A697C0B860}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17F95AD4-27E9-4888-8391-A3A697C0B860}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,10 +93,13 @@ Global
 		{9F116067-DB92-421D-9CE8-C3C1B11A0D23} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7940ABEE-248E-467A-A16D-347410BB3CB2} = {23FEAB68-54A6-4E15-BFB9-6D14C1D026E0}
-		{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB} = {812BA1A2-E83A-4883-B389-336A76F09A61}
-		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965} = {812BA1A2-E83A-4883-B389-336A76F09A61}
-		{17F95AD4-27E9-4888-8391-A3A697C0B860} = {88AA9D70-2F5C-4DA9-8890-7931B653E720}
-		{9AA1EA2B-9BF8-4C21-BE03-2DD7B29769B1} = {BCA73A6B-25AB-48E5-93C3-5D155CF04FF1}
+		{A3EBD6E4-A7A3-4DAB-9E99-F18B049EE516} = {52E7F3B5-38F3-4FFD-9B9D-00522CB34FCA}
+		{5CAE2FFF-4528-4AB1-B883-F797856B9D0A} = {63F29EC1-7B07-453F-BDB5-CEF7A6D81990}
+		{65D8321B-9CD6-435C-941C-2423F9EAA46B} = {74CBEE77-4CC5-489F-9848-62E880FBD7B2}
+		{C2388CF9-BBBA-4EB0-A142-1402359CFEA6} = {EE651469-EE57-48C4-B0E0-F7E53401CC33}
+		{D600E970-AFD1-4EDF-9A43-C2B857F2993C} = {B8607203-6E3A-44C0-835A-5E2DAADBC382}
+		{7E83863B-7ABB-43B2-8F20-CF82D9E8D965} = {B8607203-6E3A-44C0-835A-5E2DAADBC382}
+		{43B96CB5-DFFA-4C9E-8DB9-238BB38C06BD} = {B69F941C-BC98-4177-9A35-9A469EF7FD76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB17033-42FD-441D-A068-55FCEED3013F}

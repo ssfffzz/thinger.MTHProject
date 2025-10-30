@@ -189,8 +189,6 @@ namespace thinger.MTHProject
             {
                 currentNaviIndex++;
             }
-
-
         }
         #endregion
 
@@ -205,5 +203,11 @@ namespace thinger.MTHProject
             }
         }
         #endregion
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {            
+            //默认打开【集中监控】界面
+            naviButton_Click(this.naviButtonList[0], null);//naviButton_Click方法里的sender就是触发事件的对象，在这里就是集中监控按钮
+        }
     }
 }

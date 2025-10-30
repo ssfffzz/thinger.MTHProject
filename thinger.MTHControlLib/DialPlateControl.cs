@@ -113,7 +113,7 @@ namespace thinger.MTHControlLib
         [Browsable(true)]
         [Category("自定义控件")]
         [Description("获取或设置【温度】绑定的变量")]
-        public string TemVarName { get; set; } = string.Empty;
+        public string TempVarName { get; set; } = string.Empty;
 
         [Browsable(true)]
         [Category("自定义控件")]

@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECBDA693-48C5-4CB8-A0DF-C35F15B994BB}</ProjectGuid>
+    <ProjectGuid>{D600E970-AFD1-4EDF-9A43-C2B857F2993C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>thinger.Communication</RootNamespace>
     <AssemblyName>thinger.Communication</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -41,10 +41,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModbusTCP\ModbusCommunication.cs" />
+    <Compile Include="ModbusTCP\ModbusObjectTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ModbusTCP\" />
+    <ProjectReference Include="..\thinger.DataConvertLib\thinger.DataConvertLib.csproj">
+      <Project>{7e83863b-7abb-43b2-8f20-cf82d9e8d965}</Project>
+      <Name>thinger.DataConvertLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.DataModels\thinger.DataModels.csproj">
+      <Project>{7940abee-248e-467a-a16d-347410bb3cb2}</Project>
+      <Name>thinger.DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.EquipModel\thinger.EquipModel.csproj">
+      <Project>{43b96cb5-dffa-4c9e-8db9-238bb38c06bd}</Project>
+      <Name>thinger.EquipModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.Protocol\thinger.Protocol.csproj">
+      <Project>{c2388cf9-bbba-4eb0-a142-1402359cfea6}</Project>
+      <Name>thinger.Protocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.ToolLib\thinger.ToolLib.csproj">
+      <Project>{a3ebd6e4-a7a3-4dab-9e99-f18b049ee516}</Project>
+      <Name>thinger.ToolLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="SiemensS7\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

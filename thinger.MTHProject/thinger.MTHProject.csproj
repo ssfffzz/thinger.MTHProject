@@ -241,13 +241,37 @@
     <None Include="bin\Debug\Images\delete.gif" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\thinger.Communication\thinger.Communication.csproj">
+      <Project>{d600e970-afd1-4edf-9a43-c2b857f2993c}</Project>
+      <Name>thinger.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.DataBLL\thinger.DataBLL.csproj">
+      <Project>{5cae2fff-4528-4ab1-b883-f797856b9d0a}</Project>
+      <Name>thinger.DataBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.DataConvertLib\thinger.DataConvertLib.csproj">
+      <Project>{7e83863b-7abb-43b2-8f20-cf82d9e8d965}</Project>
+      <Name>thinger.DataConvertLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\thinger.DataModels\thinger.DataModels.csproj">
       <Project>{7940abee-248e-467a-a16d-347410bb3cb2}</Project>
       <Name>thinger.DataModels</Name>
     </ProjectReference>
+    <ProjectReference Include="..\thinger.EquipModel\thinger.EquipModel.csproj">
+      <Project>{43b96cb5-dffa-4c9e-8db9-238bb38c06bd}</Project>
+      <Name>thinger.EquipModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\thinger.MTHControlLib\thinger.MTHControlLib.csproj">
       <Project>{4EAA7CA6-B58E-4C7B-9EF9-B8820579E34F}</Project>
       <Name>thinger.MTHControlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.Protocol\thinger.Protocol.csproj">
+      <Project>{c2388cf9-bbba-4eb0-a142-1402359cfea6}</Project>
+      <Name>thinger.Protocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.ToolLib\thinger.ToolLib.csproj">
+      <Project>{a3ebd6e4-a7a3-4dab-9e99-f18b049ee516}</Project>
+      <Name>thinger.ToolLib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
