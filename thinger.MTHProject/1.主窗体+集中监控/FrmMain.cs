@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using thinger.Communication;
 using thinger.DataModels;
 using thinger.MTHControlLib;
 
@@ -87,7 +89,7 @@ namespace thinger.MTHProject
                 naviButton.IsSelected = true;
             }
         }
-     
+
         Form currentForm = null;//当前窗体对象
         public void OpenForm(FormNames formName)
         {
@@ -126,6 +128,7 @@ namespace thinger.MTHProject
                 {
                     case FormNames.集中监控:
                         currentForm = new FrmMonitor();
+                        ModbusObjectTree.AddLogAction = ((FrmMonitor)currentForm).AddLog;//关联日志委托
                         break;
                     case FormNames.系统配置:
                         currentForm = new FrmParamSet();
@@ -204,10 +207,48 @@ namespace thinger.MTHProject
         }
         #endregion
 
+        //设备数据文件路径，通信组文件路径，变量表文件路径
+        private string devicePath = Application.StartupPath + "\\Config\\Device.ini";
+        private string groupPath = Application.StartupPath + "\\Config\\Group.xlsx";
+        private string variablePath = Application.StartupPath + "\\Config\\Variable.xlsx";
+
+        //实例化Modbus通信对象
+        private ModbusCommunication mct = new ModbusCommunication();
+        //令牌取消对象
+        private CancellationTokenSource cts = null;
+
         private void FrmMain_Load(object sender, EventArgs e)
-        {            
+        {
             //默认打开【集中监控】界面
             naviButton_Click(this.naviButtonList[0], null);//naviButton_Click方法里的sender就是触发事件的对象，在这里就是集中监控按钮
+            //加载设备对象信息（包括设备信息，通信组和变量表数据）
+            try
+            {
+                ModbusObjectTree.Device = mct.LoadDevice(devicePath, groupPath, variablePath);
+                if (ModbusObjectTree.Device != null)
+                {
+                    ModbusObjectTree.AddLogAction(0, "设备信息加载成功");
+                    cts = new CancellationTokenSource();//每次加载都需要重新new一下，所以不能在创建对象的时候直接new
+                }
+                else
+                {
+                    ModbusObjectTree.AddLogAction(1, "设备信息加载失败，请检查配置文件");
+                    return;
+                }
+            }
+            catch (Exception ex)
+            {
+                ModbusObjectTree.AddLogAction(2, "对象树加载失败，错误原因" + ex.Message);
+                return;
+            }
+            //开启多线程循环读取数据，并同时存储到变量集合中
+            Task.Run(() =>
+            {
+                mct.PLCCommunication(ModbusObjectTree.Device, null, cts);
+            }, cts.Token);
+
+
+
         }
     }
 }

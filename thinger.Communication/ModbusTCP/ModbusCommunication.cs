@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using thinger.DataConvertLib;
 using thinger.EquipModel;
 using thinger.ModbusLib;
 using thinger.ToolLib;
@@ -108,7 +109,7 @@ namespace thinger.Communication
         }
         #endregion
 
-        //任务二：数据采集与对象树变量赋值
+        #region 任务二：数据采集与对象树变量赋值
         public void PLCCommunication(ModbusDevice device, Action<ModbusVariable> checkAlarm, CancellationTokenSource cts)
         {
             while (!cts.IsCancellationRequested)
@@ -116,6 +117,128 @@ namespace thinger.Communication
                 if (device.IsConnected)//如果设备通信连接成功，则读取数据
                 {
                     //基于多线程读取设备数据
+                    foreach (var group in device.GroupList)//遍历通信组
+                    {
+                        byte[] dataBytes = null;//返回的字节数组
+                        int requestByteLength = 0;//请求的字节长度
+                        if (group.StoreArea == "输入线圈" || group.StoreArea == "输出线圈")
+                        {
+                            switch (group.StoreArea)
+                            {
+                                case "输入线圈":
+                                    dataBytes = ModbusObjectTree.Tcp.ReadInputCoils(group.Start, group.Length);
+                                    requestByteLength = ShortLib.GetByteLengthFromBoolLength(group.Length);
+                                    break;
+                                case "输出线圈":
+                                    dataBytes = ModbusObjectTree.Tcp.ReadOutputCoils(group.Start, group.Length);
+                                    requestByteLength = ShortLib.GetByteLengthFromBoolLength(group.Length);
+                                    break;
+                                default:
+                                    break;
+                            }
+                            if (dataBytes != null && dataBytes.Length == requestByteLength)
+                            {
+                                foreach (var variable in group.VariableList) 
+                                {
+                                    //获取数据变量类型（把变量对象中字符串表示的“数据类型”转换成“实际实际数据类型的枚举”）
+                                    DataType dataType = (DataType)Enum.Parse(typeof(DataType), variable.DataType, true);
+                                    //得到变量的相对地址
+                                    int readStart = (variable.Start - group.Start);
+                                    switch (dataType)
+                                    {
+                                        case DataType.Bool:
+                                            variable.Varvalue = BitLib.GetBitFromByteArray(dataBytes, readStart, variable.OffsetOrLength);
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                                    //更新到设备变量集合中对应的变量值（线圈不要做线性转换）
+                                    device.UpdateDicVariable(variable);
+                                }
+                            }
+                        }
+                        else//读取寄存器
+                        {
+                            switch (group.StoreArea)
+                            {
+                                case "输入寄存器":
+                                    dataBytes = ModbusObjectTree.Tcp.ReadInputRegisters(group.Start, group.Length);
+                                    requestByteLength = group.Length * 2;
+                                    break;
+                                case "输出寄存器":
+                                    dataBytes = ModbusObjectTree.Tcp.ReadOutputRegisters(group.Start, group.Length);
+                                    requestByteLength = group.Length * 2;
+                                    break;
+                                default:
+                                    break;
+                            }
+                            //把读取的寄存器数据，封装到对象树的【变量】中
+                            if (dataBytes != null && dataBytes.Length == requestByteLength)
+                            {
+                                foreach (var variable in group.VariableList)//遍历通信组中所有变量
+                                {
+                                    //获取数据变量类型（把变量对象中字符串表示的“数据类型”转换成“实际实际数据类型的枚举”）
+                                    DataType dataType = (DataType)Enum.Parse(typeof(DataType), variable.DataType, true);
+                                    //得到变量的相对地址
+                                    int readStart = (variable.Start - group.Start) * 2;
+                                    switch (dataType)
+                                    {
+                                        case DataType.Bool:
+                                            variable.Varvalue = BitLib.GetBitFrom2BytesArray(dataBytes, readStart, variable.OffsetOrLength, ModbusObjectTree.DataFormat == DataFormat.BADC || ModbusObjectTree.DataFormat == DataFormat.DCBA);
+                                            //对于bool类型来说只有小端和大端区别，如果是两个字节BADC和DCBA一样都是小端，ABCD是大端
+                                            break;
+                                        case DataType.Byte:
+                                            variable.Varvalue = ByteLib.GetByteFromByteArray(dataBytes, readStart);
+                                            break;
+                                        case DataType.Short:
+                                            variable.Varvalue = ShortLib.GetShortFromByteArray(dataBytes, readStart);
+                                            break;
+                                        case DataType.UShort:
+                                            variable.Varvalue = UShortLib.GetUShortFromByteArray(dataBytes, readStart);
+                                            break;
+                                        case DataType.Int:
+                                            variable.Varvalue = IntLib.GetIntFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.UInt:
+                                            variable.Varvalue = UIntLib.GetUIntFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.Float:
+                                            variable.Varvalue = FloatLib.GetFloatFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.Double:
+                                            variable.Varvalue = DoubleLib.GetDoubleFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.Long:
+                                            variable.Varvalue = LongLib.GetLongFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.ULong:
+                                            variable.Varvalue = ULongLib.GetULongFromByteArray(dataBytes, readStart, ModbusObjectTree.DataFormat);
+                                            break;
+                                        case DataType.String:
+                                            variable.Varvalue = StringLib.GetStringFromByteArrayByEncoding(dataBytes, readStart, variable.OffsetOrLength * 2, Encoding.ASCII);
+                                            break;
+                                        case DataType.ByteArray:
+                                            variable.Varvalue = ByteArrayLib.GetByteArrayFromByteArray(dataBytes, readStart, variable.OffsetOrLength * 2);
+                                            break;
+
+                                    }
+                                    //值类型要先做线性转换
+                                    if (dataType != DataType.Bool && dataType != DataType.String && dataType != DataType.ByteArray)
+                                    {
+                                        variable.Varvalue = MigrationLib.GetMigrationValue(variable.Varvalue, variable.Scale.ToString(), variable.Offset.ToString()).Content;
+                                    }
+                                    //更新到设备对象的【变量字典】集合中
+                                    device.UpdateDicVariable(variable);
+                                }
+                            }
+                            else//如果读取数据有问题，则视为连接不成功（下次读取之前重新连接）
+                            {
+                                device.IsConnected = false;
+                            }
+                        }
+                    }
+                    //扫描延时
+                    Thread.Sleep(500);
                 }
                 else//如果设备通信没有连接，则打开连接或者等待重连
                 {
@@ -150,6 +273,6 @@ namespace thinger.Communication
             }
 
         }
-
+        #endregion
     }
 }

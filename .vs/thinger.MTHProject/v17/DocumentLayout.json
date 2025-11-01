@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D600E970-AFD1-4EDF-9A43-C2B857F2993C}|thinger.Communication\\thinger.Communication.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.communication\\modbustcp\\modbuscommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D600E970-AFD1-4EDF-9A43-C2B857F2993C}|thinger.Communication\\thinger.Communication.csproj|solutionrelative:thinger.communication\\modbustcp\\modbuscommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}|thinger.Protocol\\thinger.Protocol.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.protocol\\modbus\u534F\u8BAE\\modbustcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2388CF9-BBBA-4EB0-A142-1402359CFEA6}|thinger.Protocol\\thinger.Protocol.csproj|solutionrelative:thinger.protocol\\modbus\u534F\u8BAE\\modbustcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F116067-DB92-421D-9CE8-C3C1B11A0D23}|thinger.MTHProject\\thinger.MTHProject.csproj|solutionrelative:thinger.mthproject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D600E970-AFD1-4EDF-9A43-C2B857F2993C}|thinger.Communication\\thinger.Communication.csproj|c:\\users\\admin\\desktop\\c#\u9AD8\u9636\\thinger.mthproject\\thinger.communication\\modbustcp\\modbuscommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D600E970-AFD1-4EDF-9A43-C2B857F2993C}|thinger.Communication\\thinger.Communication.csproj|solutionrelative:thinger.communication\\modbustcp\\modbuscommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,46 +29,59 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModbusTCP.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Protocol\\Modbus\u534F\u8BAE\\ModbusTCP.cs",
-              "RelativeDocumentMoniker": "thinger.Protocol\\Modbus\u534F\u8BAE\\ModbusTCP.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Protocol\\Modbus\u534F\u8BAE\\ModbusTCP.cs",
-              "RelativeToolTip": "thinger.Protocol\\Modbus\u534F\u8BAE\\ModbusTCP.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T05:09:08.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModbusCommunication.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
-              "RelativeDocumentMoniker": "thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
-              "RelativeToolTip": "thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIQAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T02:36:43.342Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FrmMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T07:04:04.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmMonitor.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
               "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMonitor.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T02:28:18.862Z",
+              "WhenOpened": "2025-11-01T07:04:03.242Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModbusCommunication.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
+              "RelativeDocumentMoniker": "thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
+              "RelativeToolTip": "thinger.Communication\\ModbusTCP\\ModbusCommunication.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T07:02:34.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "RelativeDocumentMoniker": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\C#\u9AD8\u9636\\thinger.MTHProject\\thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "RelativeToolTip": "thinger.MTHProject\\1.\u4E3B\u7A97\u4F53\u002B\u96C6\u4E2D\u76D1\u63A7\\FrmMain.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAMwNkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:20:04.829Z",
+              "EditorCaption": ""
             }
           ]
         }
