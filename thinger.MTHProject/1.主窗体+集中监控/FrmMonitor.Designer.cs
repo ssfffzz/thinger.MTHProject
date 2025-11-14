@@ -30,33 +30,33 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMonitor));
-            SeeSharpTools.JY.GUI.StripChartXSeries stripChartXSeries1 = new SeeSharpTools.JY.GUI.StripChartXSeries();
+            SeeSharpTools.JY.GUI.StripChartXSeries stripChartXSeries3 = new SeeSharpTools.JY.GUI.StripChartXSeries();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
+            this.chartX = new SeeSharpTools.JY.GUI.StripChartX();
             this.lst_info = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.dialPlateControl2 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx9 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity2 = new thinger.MTHControlLib.CheckBoxEx();
             this.dialPlateControl1 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx10 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Temp2 = new thinger.MTHControlLib.CheckBoxEx();
             this.dialPlateControl3 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx11 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity1 = new thinger.MTHControlLib.CheckBoxEx();
             this.dialPlateControl4 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx12 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Temp1 = new thinger.MTHControlLib.CheckBoxEx();
             this.dialPlateControl5 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx5 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity4 = new thinger.MTHControlLib.CheckBoxEx();
             this.dialPlateControl6 = new thinger.MTHControlLib.DialPlateControl();
-            this.checkBoxEx6 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Temp4 = new thinger.MTHControlLib.CheckBoxEx();
             this.titleShow1 = new thinger.MTHControlLib.TitleShow();
-            this.checkBoxEx7 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity3 = new thinger.MTHControlLib.CheckBoxEx();
             this.titleShow2 = new thinger.MTHControlLib.TitleShow();
-            this.checkBoxEx8 = new thinger.MTHControlLib.CheckBoxEx();
-            this.checkBoxEx1 = new thinger.MTHControlLib.CheckBoxEx();
-            this.checkBoxEx2 = new thinger.MTHControlLib.CheckBoxEx();
-            this.checkBoxEx4 = new thinger.MTHControlLib.CheckBoxEx();
-            this.checkBoxEx3 = new thinger.MTHControlLib.CheckBoxEx();
-            this.stripChartX1 = new SeeSharpTools.JY.GUI.StripChartX();
+            this.cbe_Temp3 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Temp5 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity5 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Humidity6 = new thinger.MTHControlLib.CheckBoxEx();
+            this.cbe_Temp6 = new thinger.MTHControlLib.CheckBoxEx();
             this.panelEnhanced1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,33 +71,184 @@
             // panelEnhanced1
             // 
             this.panelEnhanced1.BackgroundImage = global::thinger.MTHProject.Properties.Resources.BackGround;
-            this.panelEnhanced1.Controls.Add(this.stripChartX1);
+            this.panelEnhanced1.Controls.Add(this.chartX);
             this.panelEnhanced1.Controls.Add(this.lst_info);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl2);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx9);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity2);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl1);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx10);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp2);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl3);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx11);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity1);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl4);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx12);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp1);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl5);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx5);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity4);
             this.panelEnhanced1.Controls.Add(this.dialPlateControl6);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx6);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp4);
             this.panelEnhanced1.Controls.Add(this.titleShow1);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx7);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity3);
             this.panelEnhanced1.Controls.Add(this.titleShow2);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx8);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx1);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx2);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx4);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx3);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp3);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp5);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity5);
+            this.panelEnhanced1.Controls.Add(this.cbe_Humidity6);
+            this.panelEnhanced1.Controls.Add(this.cbe_Temp6);
             this.panelEnhanced1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelEnhanced1.Location = new System.Drawing.Point(0, 0);
             this.panelEnhanced1.Name = "panelEnhanced1";
             this.panelEnhanced1.Size = new System.Drawing.Size(1394, 716);
             this.panelEnhanced1.TabIndex = 14;
+            // 
+            // chartX
+            // 
+            this.chartX.AxisX.AutoScale = false;
+            this.chartX.AxisX.AutoZoomReset = false;
+            this.chartX.AxisX.Color = System.Drawing.Color.White;
+            this.chartX.AxisX.InitWithScaleView = false;
+            this.chartX.AxisX.IsLogarithmic = false;
+            this.chartX.AxisX.LabelAngle = 0;
+            this.chartX.AxisX.LabelEnabled = true;
+            this.chartX.AxisX.LabelFormat = null;
+            this.chartX.AxisX.MajorGridColor = System.Drawing.Color.White;
+            this.chartX.AxisX.MajorGridCount = 6;
+            this.chartX.AxisX.MajorGridEnabled = true;
+            this.chartX.AxisX.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
+            this.chartX.AxisX.Maximum = 1000D;
+            this.chartX.AxisX.Minimum = 0D;
+            this.chartX.AxisX.MinorGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.chartX.AxisX.MinorGridEnabled = false;
+            this.chartX.AxisX.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
+            this.chartX.AxisX.TickWidth = 1F;
+            this.chartX.AxisX.Title = "";
+            this.chartX.AxisX.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
+            this.chartX.AxisX.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
+            this.chartX.AxisX.ViewMaximum = 1000D;
+            this.chartX.AxisX.ViewMinimum = 0D;
+            this.chartX.AxisX2.AutoScale = false;
+            this.chartX.AxisX2.AutoZoomReset = false;
+            this.chartX.AxisX2.Color = System.Drawing.Color.Black;
+            this.chartX.AxisX2.InitWithScaleView = false;
+            this.chartX.AxisX2.IsLogarithmic = false;
+            this.chartX.AxisX2.LabelAngle = 0;
+            this.chartX.AxisX2.LabelEnabled = true;
+            this.chartX.AxisX2.LabelFormat = null;
+            this.chartX.AxisX2.MajorGridColor = System.Drawing.Color.Black;
+            this.chartX.AxisX2.MajorGridCount = 6;
+            this.chartX.AxisX2.MajorGridEnabled = true;
+            this.chartX.AxisX2.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
+            this.chartX.AxisX2.Maximum = 1000D;
+            this.chartX.AxisX2.Minimum = 0D;
+            this.chartX.AxisX2.MinorGridColor = System.Drawing.Color.Black;
+            this.chartX.AxisX2.MinorGridEnabled = false;
+            this.chartX.AxisX2.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
+            this.chartX.AxisX2.TickWidth = 1F;
+            this.chartX.AxisX2.Title = "";
+            this.chartX.AxisX2.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
+            this.chartX.AxisX2.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
+            this.chartX.AxisX2.ViewMaximum = 1000D;
+            this.chartX.AxisX2.ViewMinimum = 0D;
+            this.chartX.AxisY.AutoScale = true;
+            this.chartX.AxisY.AutoZoomReset = false;
+            this.chartX.AxisY.Color = System.Drawing.Color.White;
+            this.chartX.AxisY.InitWithScaleView = false;
+            this.chartX.AxisY.IsLogarithmic = false;
+            this.chartX.AxisY.LabelAngle = 0;
+            this.chartX.AxisY.LabelEnabled = true;
+            this.chartX.AxisY.LabelFormat = null;
+            this.chartX.AxisY.MajorGridColor = System.Drawing.Color.White;
+            this.chartX.AxisY.MajorGridCount = 6;
+            this.chartX.AxisY.MajorGridEnabled = true;
+            this.chartX.AxisY.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
+            this.chartX.AxisY.Maximum = 3.5D;
+            this.chartX.AxisY.Minimum = 0.5D;
+            this.chartX.AxisY.MinorGridColor = System.Drawing.Color.Black;
+            this.chartX.AxisY.MinorGridEnabled = false;
+            this.chartX.AxisY.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
+            this.chartX.AxisY.TickWidth = 1F;
+            this.chartX.AxisY.Title = "";
+            this.chartX.AxisY.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
+            this.chartX.AxisY.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
+            this.chartX.AxisY.ViewMaximum = 3.5D;
+            this.chartX.AxisY.ViewMinimum = 0.5D;
+            this.chartX.AxisY2.AutoScale = true;
+            this.chartX.AxisY2.AutoZoomReset = false;
+            this.chartX.AxisY2.Color = System.Drawing.Color.Black;
+            this.chartX.AxisY2.InitWithScaleView = false;
+            this.chartX.AxisY2.IsLogarithmic = false;
+            this.chartX.AxisY2.LabelAngle = 0;
+            this.chartX.AxisY2.LabelEnabled = true;
+            this.chartX.AxisY2.LabelFormat = null;
+            this.chartX.AxisY2.MajorGridColor = System.Drawing.Color.Black;
+            this.chartX.AxisY2.MajorGridCount = 6;
+            this.chartX.AxisY2.MajorGridEnabled = true;
+            this.chartX.AxisY2.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
+            this.chartX.AxisY2.Maximum = 3.5D;
+            this.chartX.AxisY2.Minimum = 0.5D;
+            this.chartX.AxisY2.MinorGridColor = System.Drawing.Color.Black;
+            this.chartX.AxisY2.MinorGridEnabled = false;
+            this.chartX.AxisY2.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
+            this.chartX.AxisY2.TickWidth = 1F;
+            this.chartX.AxisY2.Title = "";
+            this.chartX.AxisY2.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
+            this.chartX.AxisY2.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
+            this.chartX.AxisY2.ViewMaximum = 3.5D;
+            this.chartX.AxisY2.ViewMinimum = 0.5D;
+            this.chartX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.chartX.ChartAreaBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.chartX.Direction = SeeSharpTools.JY.GUI.StripChartX.ScrollDirection.LeftToRight;
+            this.chartX.DisplayPoints = 4000;
+            this.chartX.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chartX.ForeColor = System.Drawing.Color.White;
+            this.chartX.GradientStyle = SeeSharpTools.JY.GUI.StripChartX.ChartGradientStyle.None;
+            this.chartX.LegendBackColor = System.Drawing.Color.Transparent;
+            this.chartX.LegendFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chartX.LegendForeColor = System.Drawing.Color.White;
+            this.chartX.LegendVisible = true;
+            stripChartXSeries3.Color = System.Drawing.Color.Red;
+            stripChartXSeries3.Marker = SeeSharpTools.JY.GUI.StripChartXSeries.MarkerType.None;
+            stripChartXSeries3.Name = "Series1";
+            stripChartXSeries3.Type = SeeSharpTools.JY.GUI.StripChartXSeries.LineType.FastLine;
+            stripChartXSeries3.Visible = true;
+            stripChartXSeries3.Width = SeeSharpTools.JY.GUI.StripChartXSeries.LineWidth.Thin;
+            stripChartXSeries3.XPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
+            stripChartXSeries3.YPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
+            this.chartX.LineSeries.Add(stripChartXSeries3);
+            this.chartX.Location = new System.Drawing.Point(789, 50);
+            this.chartX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chartX.Miscellaneous.CheckInfinity = false;
+            this.chartX.Miscellaneous.CheckNaN = false;
+            this.chartX.Miscellaneous.CheckNegtiveOrZero = false;
+            this.chartX.Miscellaneous.DirectionChartCount = 3;
+            this.chartX.Miscellaneous.Fitting = SeeSharpTools.JY.GUI.StripChartX.FitType.Range;
+            this.chartX.Miscellaneous.MaxSeriesCount = 32;
+            this.chartX.Miscellaneous.MaxSeriesPointCount = 4000;
+            this.chartX.Miscellaneous.SplitLayoutColumnInterval = 0F;
+            this.chartX.Miscellaneous.SplitLayoutDirection = SeeSharpTools.JY.GUI.StripChartXUtility.LayoutDirection.LeftToRight;
+            this.chartX.Miscellaneous.SplitLayoutRowInterval = 0F;
+            this.chartX.Miscellaneous.SplitViewAutoLayout = true;
+            this.chartX.Name = "chartX";
+            this.chartX.NextTimeStamp = new System.DateTime(((long)(0)));
+            this.chartX.ScrollType = SeeSharpTools.JY.GUI.StripChartX.StripScrollType.Cumulation;
+            this.chartX.SeriesCount = 1;
+            this.chartX.Size = new System.Drawing.Size(575, 306);
+            this.chartX.SplitView = false;
+            this.chartX.StartIndex = 0;
+            this.chartX.TabIndex = 14;
+            this.chartX.TimeInterval = System.TimeSpan.Parse("00:00:00");
+            this.chartX.TimeStampFormat = null;
+            this.chartX.XCursor.AutoInterval = true;
+            this.chartX.XCursor.Color = System.Drawing.Color.DeepSkyBlue;
+            this.chartX.XCursor.Interval = 0.001D;
+            this.chartX.XCursor.Mode = SeeSharpTools.JY.GUI.StripChartXCursor.CursorMode.Zoom;
+            this.chartX.XCursor.SelectionColor = System.Drawing.Color.LightGray;
+            this.chartX.XCursor.Value = double.NaN;
+            this.chartX.XDataType = SeeSharpTools.JY.GUI.StripChartX.XAxisDataType.Index;
+            this.chartX.YCursor.AutoInterval = true;
+            this.chartX.YCursor.Color = System.Drawing.Color.DeepSkyBlue;
+            this.chartX.YCursor.Interval = 0.001D;
+            this.chartX.YCursor.Mode = SeeSharpTools.JY.GUI.StripChartXCursor.CursorMode.Disabled;
+            this.chartX.YCursor.SelectionColor = System.Drawing.Color.LightGray;
+            this.chartX.YCursor.Value = double.NaN;
             // 
             // lst_info
             // 
@@ -122,7 +273,7 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "日志时间";
-            this.columnHeader1.Width = 150;
+            this.columnHeader1.Width = 180;
             // 
             // columnHeader2
             // 
@@ -144,19 +295,20 @@
             this.dialPlateControl2.TempVarName = "模块2温度";
             this.dialPlateControl2.TitleName = "2#站点";
             // 
-            // checkBoxEx9
+            // cbe_Humidity2
             // 
-            this.checkBoxEx9.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx9.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx9.CkbWidth = 20;
-            this.checkBoxEx9.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx9.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx9.Location = new System.Drawing.Point(1243, 363);
-            this.checkBoxEx9.Name = "checkBoxEx9";
-            this.checkBoxEx9.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx9.TabIndex = 9;
-            this.checkBoxEx9.Text = "模块2湿度";
-            this.checkBoxEx9.UseVisualStyleBackColor = false;
+            this.cbe_Humidity2.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity2.CkbWidth = 20;
+            this.cbe_Humidity2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity2.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity2.Location = new System.Drawing.Point(1243, 363);
+            this.cbe_Humidity2.Name = "cbe_Humidity2";
+            this.cbe_Humidity2.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity2.TabIndex = 9;
+            this.cbe_Humidity2.Text = "模块2湿度";
+            this.cbe_Humidity2.UseVisualStyleBackColor = false;
+            this.cbe_Humidity2.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // dialPlateControl1
             // 
@@ -173,19 +325,20 @@
             this.dialPlateControl1.TempVarName = "模块1温度";
             this.dialPlateControl1.TitleName = "1#站点";
             // 
-            // checkBoxEx10
+            // cbe_Temp2
             // 
-            this.checkBoxEx10.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx10.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx10.CkbWidth = 20;
-            this.checkBoxEx10.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx10.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx10.Location = new System.Drawing.Point(1093, 363);
-            this.checkBoxEx10.Name = "checkBoxEx10";
-            this.checkBoxEx10.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx10.TabIndex = 10;
-            this.checkBoxEx10.Text = "模块2温度";
-            this.checkBoxEx10.UseVisualStyleBackColor = false;
+            this.cbe_Temp2.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp2.CkbWidth = 20;
+            this.cbe_Temp2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp2.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp2.Location = new System.Drawing.Point(1093, 363);
+            this.cbe_Temp2.Name = "cbe_Temp2";
+            this.cbe_Temp2.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp2.TabIndex = 10;
+            this.cbe_Temp2.Text = "模块2温度";
+            this.cbe_Temp2.UseVisualStyleBackColor = false;
+            this.cbe_Temp2.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // dialPlateControl3
             // 
@@ -202,19 +355,20 @@
             this.dialPlateControl3.TempVarName = "模块3温度";
             this.dialPlateControl3.TitleName = "3#站点";
             // 
-            // checkBoxEx11
+            // cbe_Humidity1
             // 
-            this.checkBoxEx11.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx11.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx11.CkbWidth = 20;
-            this.checkBoxEx11.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx11.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx11.Location = new System.Drawing.Point(943, 363);
-            this.checkBoxEx11.Name = "checkBoxEx11";
-            this.checkBoxEx11.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx11.TabIndex = 11;
-            this.checkBoxEx11.Text = "模块1湿度";
-            this.checkBoxEx11.UseVisualStyleBackColor = false;
+            this.cbe_Humidity1.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity1.CkbWidth = 20;
+            this.cbe_Humidity1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity1.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity1.Location = new System.Drawing.Point(943, 363);
+            this.cbe_Humidity1.Name = "cbe_Humidity1";
+            this.cbe_Humidity1.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity1.TabIndex = 11;
+            this.cbe_Humidity1.Text = "模块1湿度";
+            this.cbe_Humidity1.UseVisualStyleBackColor = false;
+            this.cbe_Humidity1.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // dialPlateControl4
             // 
@@ -231,19 +385,20 @@
             this.dialPlateControl4.TempVarName = "模块4温度";
             this.dialPlateControl4.TitleName = "4#站点";
             // 
-            // checkBoxEx12
+            // cbe_Temp1
             // 
-            this.checkBoxEx12.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx12.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx12.CkbWidth = 20;
-            this.checkBoxEx12.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx12.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx12.Location = new System.Drawing.Point(793, 363);
-            this.checkBoxEx12.Name = "checkBoxEx12";
-            this.checkBoxEx12.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx12.TabIndex = 12;
-            this.checkBoxEx12.Text = "模块1温度";
-            this.checkBoxEx12.UseVisualStyleBackColor = false;
+            this.cbe_Temp1.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp1.CkbWidth = 20;
+            this.cbe_Temp1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp1.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp1.Location = new System.Drawing.Point(793, 363);
+            this.cbe_Temp1.Name = "cbe_Temp1";
+            this.cbe_Temp1.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp1.TabIndex = 12;
+            this.cbe_Temp1.Text = "模块1温度";
+            this.cbe_Temp1.UseVisualStyleBackColor = false;
+            this.cbe_Temp1.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // dialPlateControl5
             // 
@@ -260,19 +415,20 @@
             this.dialPlateControl5.TempVarName = "模块5温度";
             this.dialPlateControl5.TitleName = "5#站点";
             // 
-            // checkBoxEx5
+            // cbe_Humidity4
             // 
-            this.checkBoxEx5.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx5.CkbWidth = 20;
-            this.checkBoxEx5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx5.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx5.Location = new System.Drawing.Point(1243, 408);
-            this.checkBoxEx5.Name = "checkBoxEx5";
-            this.checkBoxEx5.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx5.TabIndex = 5;
-            this.checkBoxEx5.Text = "模块4湿度";
-            this.checkBoxEx5.UseVisualStyleBackColor = false;
+            this.cbe_Humidity4.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity4.CkbWidth = 20;
+            this.cbe_Humidity4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity4.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity4.Location = new System.Drawing.Point(1243, 408);
+            this.cbe_Humidity4.Name = "cbe_Humidity4";
+            this.cbe_Humidity4.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity4.TabIndex = 5;
+            this.cbe_Humidity4.Text = "模块4湿度";
+            this.cbe_Humidity4.UseVisualStyleBackColor = false;
+            this.cbe_Humidity4.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // dialPlateControl6
             // 
@@ -289,19 +445,20 @@
             this.dialPlateControl6.TempVarName = "模块6温度";
             this.dialPlateControl6.TitleName = "6#站点";
             // 
-            // checkBoxEx6
+            // cbe_Temp4
             // 
-            this.checkBoxEx6.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx6.CkbWidth = 20;
-            this.checkBoxEx6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx6.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx6.Location = new System.Drawing.Point(1093, 408);
-            this.checkBoxEx6.Name = "checkBoxEx6";
-            this.checkBoxEx6.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx6.TabIndex = 6;
-            this.checkBoxEx6.Text = "模块4温度";
-            this.checkBoxEx6.UseVisualStyleBackColor = false;
+            this.cbe_Temp4.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp4.CkbWidth = 20;
+            this.cbe_Temp4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp4.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp4.Location = new System.Drawing.Point(1093, 408);
+            this.cbe_Temp4.Name = "cbe_Temp4";
+            this.cbe_Temp4.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp4.TabIndex = 6;
+            this.cbe_Temp4.Text = "模块4温度";
+            this.cbe_Temp4.UseVisualStyleBackColor = false;
+            this.cbe_Temp4.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // titleShow1
             // 
@@ -314,19 +471,20 @@
             this.titleShow1.TabIndex = 2;
             this.titleShow1.Title = "实时趋势";
             // 
-            // checkBoxEx7
+            // cbe_Humidity3
             // 
-            this.checkBoxEx7.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx7.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx7.CkbWidth = 20;
-            this.checkBoxEx7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx7.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx7.Location = new System.Drawing.Point(943, 408);
-            this.checkBoxEx7.Name = "checkBoxEx7";
-            this.checkBoxEx7.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx7.TabIndex = 7;
-            this.checkBoxEx7.Text = "模块3湿度";
-            this.checkBoxEx7.UseVisualStyleBackColor = false;
+            this.cbe_Humidity3.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity3.CkbWidth = 20;
+            this.cbe_Humidity3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity3.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity3.Location = new System.Drawing.Point(943, 408);
+            this.cbe_Humidity3.Name = "cbe_Humidity3";
+            this.cbe_Humidity3.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity3.TabIndex = 7;
+            this.cbe_Humidity3.Text = "模块3湿度";
+            this.cbe_Humidity3.UseVisualStyleBackColor = false;
+            this.cbe_Humidity3.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // titleShow2
             // 
@@ -339,226 +497,80 @@
             this.titleShow2.TabIndex = 2;
             this.titleShow2.Title = "历史监控";
             // 
-            // checkBoxEx8
+            // cbe_Temp3
             // 
-            this.checkBoxEx8.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx8.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx8.CkbWidth = 20;
-            this.checkBoxEx8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx8.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx8.Location = new System.Drawing.Point(793, 408);
-            this.checkBoxEx8.Name = "checkBoxEx8";
-            this.checkBoxEx8.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx8.TabIndex = 8;
-            this.checkBoxEx8.Text = "模块3温度";
-            this.checkBoxEx8.UseVisualStyleBackColor = false;
+            this.cbe_Temp3.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp3.CkbWidth = 20;
+            this.cbe_Temp3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp3.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp3.Location = new System.Drawing.Point(793, 408);
+            this.cbe_Temp3.Name = "cbe_Temp3";
+            this.cbe_Temp3.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp3.TabIndex = 8;
+            this.cbe_Temp3.Text = "模块3温度";
+            this.cbe_Temp3.UseVisualStyleBackColor = false;
+            this.cbe_Temp3.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
-            // checkBoxEx1
+            // cbe_Temp5
             // 
-            this.checkBoxEx1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx1.CkbWidth = 20;
-            this.checkBoxEx1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx1.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx1.Location = new System.Drawing.Point(793, 457);
-            this.checkBoxEx1.Name = "checkBoxEx1";
-            this.checkBoxEx1.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx1.TabIndex = 3;
-            this.checkBoxEx1.Text = "模块5温度";
-            this.checkBoxEx1.UseVisualStyleBackColor = false;
+            this.cbe_Temp5.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp5.CkbWidth = 20;
+            this.cbe_Temp5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp5.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp5.Location = new System.Drawing.Point(793, 457);
+            this.cbe_Temp5.Name = "cbe_Temp5";
+            this.cbe_Temp5.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp5.TabIndex = 3;
+            this.cbe_Temp5.Text = "模块5温度";
+            this.cbe_Temp5.UseVisualStyleBackColor = false;
+            this.cbe_Temp5.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
-            // checkBoxEx2
+            // cbe_Humidity5
             // 
-            this.checkBoxEx2.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx2.CkbWidth = 20;
-            this.checkBoxEx2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx2.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx2.Location = new System.Drawing.Point(943, 457);
-            this.checkBoxEx2.Name = "checkBoxEx2";
-            this.checkBoxEx2.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx2.TabIndex = 3;
-            this.checkBoxEx2.Text = "模块5湿度";
-            this.checkBoxEx2.UseVisualStyleBackColor = false;
+            this.cbe_Humidity5.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity5.CkbWidth = 20;
+            this.cbe_Humidity5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity5.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity5.Location = new System.Drawing.Point(943, 457);
+            this.cbe_Humidity5.Name = "cbe_Humidity5";
+            this.cbe_Humidity5.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity5.TabIndex = 3;
+            this.cbe_Humidity5.Text = "模块5湿度";
+            this.cbe_Humidity5.UseVisualStyleBackColor = false;
+            this.cbe_Humidity5.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
-            // checkBoxEx4
+            // cbe_Humidity6
             // 
-            this.checkBoxEx4.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx4.CkbWidth = 20;
-            this.checkBoxEx4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx4.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx4.Location = new System.Drawing.Point(1243, 457);
-            this.checkBoxEx4.Name = "checkBoxEx4";
-            this.checkBoxEx4.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx4.TabIndex = 3;
-            this.checkBoxEx4.Text = "模块6湿度";
-            this.checkBoxEx4.UseVisualStyleBackColor = false;
+            this.cbe_Humidity6.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Humidity6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Humidity6.CkbWidth = 20;
+            this.cbe_Humidity6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Humidity6.ForeColor = System.Drawing.Color.White;
+            this.cbe_Humidity6.Location = new System.Drawing.Point(1243, 457);
+            this.cbe_Humidity6.Name = "cbe_Humidity6";
+            this.cbe_Humidity6.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Humidity6.TabIndex = 3;
+            this.cbe_Humidity6.Text = "模块6湿度";
+            this.cbe_Humidity6.UseVisualStyleBackColor = false;
+            this.cbe_Humidity6.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
-            // checkBoxEx3
+            // cbe_Temp6
             // 
-            this.checkBoxEx3.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxEx3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
-            this.checkBoxEx3.CkbWidth = 20;
-            this.checkBoxEx3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.checkBoxEx3.ForeColor = System.Drawing.Color.White;
-            this.checkBoxEx3.Location = new System.Drawing.Point(1093, 457);
-            this.checkBoxEx3.Name = "checkBoxEx3";
-            this.checkBoxEx3.Size = new System.Drawing.Size(119, 29);
-            this.checkBoxEx3.TabIndex = 3;
-            this.checkBoxEx3.Text = "模块6温度";
-            this.checkBoxEx3.UseVisualStyleBackColor = false;
-            // 
-            // stripChartX1
-            // 
-            this.stripChartX1.AxisX.AutoScale = false;
-            this.stripChartX1.AxisX.AutoZoomReset = false;
-            this.stripChartX1.AxisX.Color = System.Drawing.Color.White;
-            this.stripChartX1.AxisX.InitWithScaleView = false;
-            this.stripChartX1.AxisX.IsLogarithmic = false;
-            this.stripChartX1.AxisX.LabelAngle = 0;
-            this.stripChartX1.AxisX.LabelEnabled = true;
-            this.stripChartX1.AxisX.LabelFormat = null;
-            this.stripChartX1.AxisX.MajorGridColor = System.Drawing.Color.White;
-            this.stripChartX1.AxisX.MajorGridCount = 6;
-            this.stripChartX1.AxisX.MajorGridEnabled = true;
-            this.stripChartX1.AxisX.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
-            this.stripChartX1.AxisX.Maximum = 1000D;
-            this.stripChartX1.AxisX.Minimum = 0D;
-            this.stripChartX1.AxisX.MinorGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.stripChartX1.AxisX.MinorGridEnabled = false;
-            this.stripChartX1.AxisX.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
-            this.stripChartX1.AxisX.TickWidth = 1F;
-            this.stripChartX1.AxisX.Title = "";
-            this.stripChartX1.AxisX.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
-            this.stripChartX1.AxisX.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
-            this.stripChartX1.AxisX.ViewMaximum = 1000D;
-            this.stripChartX1.AxisX.ViewMinimum = 0D;
-            this.stripChartX1.AxisX2.AutoScale = false;
-            this.stripChartX1.AxisX2.AutoZoomReset = false;
-            this.stripChartX1.AxisX2.Color = System.Drawing.Color.Black;
-            this.stripChartX1.AxisX2.InitWithScaleView = false;
-            this.stripChartX1.AxisX2.IsLogarithmic = false;
-            this.stripChartX1.AxisX2.LabelAngle = 0;
-            this.stripChartX1.AxisX2.LabelEnabled = true;
-            this.stripChartX1.AxisX2.LabelFormat = null;
-            this.stripChartX1.AxisX2.MajorGridColor = System.Drawing.Color.Black;
-            this.stripChartX1.AxisX2.MajorGridCount = 6;
-            this.stripChartX1.AxisX2.MajorGridEnabled = true;
-            this.stripChartX1.AxisX2.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
-            this.stripChartX1.AxisX2.Maximum = 1000D;
-            this.stripChartX1.AxisX2.Minimum = 0D;
-            this.stripChartX1.AxisX2.MinorGridColor = System.Drawing.Color.Black;
-            this.stripChartX1.AxisX2.MinorGridEnabled = false;
-            this.stripChartX1.AxisX2.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
-            this.stripChartX1.AxisX2.TickWidth = 1F;
-            this.stripChartX1.AxisX2.Title = "";
-            this.stripChartX1.AxisX2.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
-            this.stripChartX1.AxisX2.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
-            this.stripChartX1.AxisX2.ViewMaximum = 1000D;
-            this.stripChartX1.AxisX2.ViewMinimum = 0D;
-            this.stripChartX1.AxisY.AutoScale = true;
-            this.stripChartX1.AxisY.AutoZoomReset = false;
-            this.stripChartX1.AxisY.Color = System.Drawing.Color.White;
-            this.stripChartX1.AxisY.InitWithScaleView = false;
-            this.stripChartX1.AxisY.IsLogarithmic = false;
-            this.stripChartX1.AxisY.LabelAngle = 0;
-            this.stripChartX1.AxisY.LabelEnabled = true;
-            this.stripChartX1.AxisY.LabelFormat = null;
-            this.stripChartX1.AxisY.MajorGridColor = System.Drawing.Color.White;
-            this.stripChartX1.AxisY.MajorGridCount = 6;
-            this.stripChartX1.AxisY.MajorGridEnabled = true;
-            this.stripChartX1.AxisY.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
-            this.stripChartX1.AxisY.Maximum = 3.5D;
-            this.stripChartX1.AxisY.Minimum = 0.5D;
-            this.stripChartX1.AxisY.MinorGridColor = System.Drawing.Color.Black;
-            this.stripChartX1.AxisY.MinorGridEnabled = false;
-            this.stripChartX1.AxisY.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
-            this.stripChartX1.AxisY.TickWidth = 1F;
-            this.stripChartX1.AxisY.Title = "";
-            this.stripChartX1.AxisY.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
-            this.stripChartX1.AxisY.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
-            this.stripChartX1.AxisY.ViewMaximum = 3.5D;
-            this.stripChartX1.AxisY.ViewMinimum = 0.5D;
-            this.stripChartX1.AxisY2.AutoScale = true;
-            this.stripChartX1.AxisY2.AutoZoomReset = false;
-            this.stripChartX1.AxisY2.Color = System.Drawing.Color.Black;
-            this.stripChartX1.AxisY2.InitWithScaleView = false;
-            this.stripChartX1.AxisY2.IsLogarithmic = false;
-            this.stripChartX1.AxisY2.LabelAngle = 0;
-            this.stripChartX1.AxisY2.LabelEnabled = true;
-            this.stripChartX1.AxisY2.LabelFormat = null;
-            this.stripChartX1.AxisY2.MajorGridColor = System.Drawing.Color.Black;
-            this.stripChartX1.AxisY2.MajorGridCount = 6;
-            this.stripChartX1.AxisY2.MajorGridEnabled = true;
-            this.stripChartX1.AxisY2.MajorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.Dash;
-            this.stripChartX1.AxisY2.Maximum = 3.5D;
-            this.stripChartX1.AxisY2.Minimum = 0.5D;
-            this.stripChartX1.AxisY2.MinorGridColor = System.Drawing.Color.Black;
-            this.stripChartX1.AxisY2.MinorGridEnabled = false;
-            this.stripChartX1.AxisY2.MinorGridType = SeeSharpTools.JY.GUI.StripChartXAxis.GridStyle.DashDot;
-            this.stripChartX1.AxisY2.TickWidth = 1F;
-            this.stripChartX1.AxisY2.Title = "";
-            this.stripChartX1.AxisY2.TitleOrientation = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextOrientation.Auto;
-            this.stripChartX1.AxisY2.TitlePosition = SeeSharpTools.JY.GUI.StripChartXAxis.AxisTextPosition.Center;
-            this.stripChartX1.AxisY2.ViewMaximum = 3.5D;
-            this.stripChartX1.AxisY2.ViewMinimum = 0.5D;
-            this.stripChartX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.stripChartX1.ChartAreaBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.stripChartX1.Direction = SeeSharpTools.JY.GUI.StripChartX.ScrollDirection.LeftToRight;
-            this.stripChartX1.DisplayPoints = 4000;
-            this.stripChartX1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.stripChartX1.ForeColor = System.Drawing.Color.White;
-            this.stripChartX1.GradientStyle = SeeSharpTools.JY.GUI.StripChartX.ChartGradientStyle.None;
-            this.stripChartX1.LegendBackColor = System.Drawing.Color.Transparent;
-            this.stripChartX1.LegendFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.stripChartX1.LegendForeColor = System.Drawing.Color.White;
-            this.stripChartX1.LegendVisible = true;
-            stripChartXSeries1.Color = System.Drawing.Color.Red;
-            stripChartXSeries1.Marker = SeeSharpTools.JY.GUI.StripChartXSeries.MarkerType.None;
-            stripChartXSeries1.Name = "Series1";
-            stripChartXSeries1.Type = SeeSharpTools.JY.GUI.StripChartXSeries.LineType.FastLine;
-            stripChartXSeries1.Visible = true;
-            stripChartXSeries1.Width = SeeSharpTools.JY.GUI.StripChartXSeries.LineWidth.Thin;
-            stripChartXSeries1.XPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
-            stripChartXSeries1.YPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
-            this.stripChartX1.LineSeries.Add(stripChartXSeries1);
-            this.stripChartX1.Location = new System.Drawing.Point(789, 50);
-            this.stripChartX1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.stripChartX1.Miscellaneous.CheckInfinity = false;
-            this.stripChartX1.Miscellaneous.CheckNaN = false;
-            this.stripChartX1.Miscellaneous.CheckNegtiveOrZero = false;
-            this.stripChartX1.Miscellaneous.DirectionChartCount = 3;
-            this.stripChartX1.Miscellaneous.Fitting = SeeSharpTools.JY.GUI.StripChartX.FitType.Range;
-            this.stripChartX1.Miscellaneous.MaxSeriesCount = 32;
-            this.stripChartX1.Miscellaneous.MaxSeriesPointCount = 4000;
-            this.stripChartX1.Miscellaneous.SplitLayoutColumnInterval = 0F;
-            this.stripChartX1.Miscellaneous.SplitLayoutDirection = SeeSharpTools.JY.GUI.StripChartXUtility.LayoutDirection.LeftToRight;
-            this.stripChartX1.Miscellaneous.SplitLayoutRowInterval = 0F;
-            this.stripChartX1.Miscellaneous.SplitViewAutoLayout = true;
-            this.stripChartX1.Name = "stripChartX1";
-            this.stripChartX1.NextTimeStamp = new System.DateTime(((long)(0)));
-            this.stripChartX1.ScrollType = SeeSharpTools.JY.GUI.StripChartX.StripScrollType.Cumulation;
-            this.stripChartX1.SeriesCount = 1;
-            this.stripChartX1.Size = new System.Drawing.Size(575, 306);
-            this.stripChartX1.SplitView = false;
-            this.stripChartX1.StartIndex = 0;
-            this.stripChartX1.TabIndex = 14;
-            this.stripChartX1.TimeInterval = System.TimeSpan.Parse("00:00:00");
-            this.stripChartX1.TimeStampFormat = null;
-            this.stripChartX1.XCursor.AutoInterval = true;
-            this.stripChartX1.XCursor.Color = System.Drawing.Color.DeepSkyBlue;
-            this.stripChartX1.XCursor.Interval = 0.001D;
-            this.stripChartX1.XCursor.Mode = SeeSharpTools.JY.GUI.StripChartXCursor.CursorMode.Zoom;
-            this.stripChartX1.XCursor.SelectionColor = System.Drawing.Color.LightGray;
-            this.stripChartX1.XCursor.Value = double.NaN;
-            this.stripChartX1.XDataType = SeeSharpTools.JY.GUI.StripChartX.XAxisDataType.Index;
-            this.stripChartX1.YCursor.AutoInterval = true;
-            this.stripChartX1.YCursor.Color = System.Drawing.Color.DeepSkyBlue;
-            this.stripChartX1.YCursor.Interval = 0.001D;
-            this.stripChartX1.YCursor.Mode = SeeSharpTools.JY.GUI.StripChartXCursor.CursorMode.Disabled;
-            this.stripChartX1.YCursor.SelectionColor = System.Drawing.Color.LightGray;
-            this.stripChartX1.YCursor.Value = double.NaN;
+            this.cbe_Temp6.BackColor = System.Drawing.Color.Transparent;
+            this.cbe_Temp6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(25)))), ((int)(((byte)(66)))));
+            this.cbe_Temp6.CkbWidth = 20;
+            this.cbe_Temp6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cbe_Temp6.ForeColor = System.Drawing.Color.White;
+            this.cbe_Temp6.Location = new System.Drawing.Point(1093, 457);
+            this.cbe_Temp6.Name = "cbe_Temp6";
+            this.cbe_Temp6.Size = new System.Drawing.Size(119, 29);
+            this.cbe_Temp6.TabIndex = 3;
+            this.cbe_Temp6.Text = "模块6温度";
+            this.cbe_Temp6.UseVisualStyleBackColor = false;
+            this.cbe_Temp6.CheckedChanged += new System.EventHandler(this.Cbe_TempHum_CheckedChanged);
             // 
             // FrmMonitor
             // 
@@ -584,23 +596,23 @@
         private MTHControlLib.DialPlateControl dialPlateControl6;
         private MTHControlLib.TitleShow titleShow1;
         private MTHControlLib.TitleShow titleShow2;
-        private MTHControlLib.CheckBoxEx checkBoxEx1;
-        private MTHControlLib.CheckBoxEx checkBoxEx2;
-        private MTHControlLib.CheckBoxEx checkBoxEx3;
-        private MTHControlLib.CheckBoxEx checkBoxEx4;
-        private MTHControlLib.CheckBoxEx checkBoxEx5;
-        private MTHControlLib.CheckBoxEx checkBoxEx6;
-        private MTHControlLib.CheckBoxEx checkBoxEx7;
-        private MTHControlLib.CheckBoxEx checkBoxEx8;
-        private MTHControlLib.CheckBoxEx checkBoxEx9;
-        private MTHControlLib.CheckBoxEx checkBoxEx10;
-        private MTHControlLib.CheckBoxEx checkBoxEx11;
-        private MTHControlLib.CheckBoxEx checkBoxEx12;
+        private MTHControlLib.CheckBoxEx cbe_Temp5;
+        private MTHControlLib.CheckBoxEx cbe_Humidity5;
+        private MTHControlLib.CheckBoxEx cbe_Temp6;
+        private MTHControlLib.CheckBoxEx cbe_Humidity6;
+        private MTHControlLib.CheckBoxEx cbe_Humidity4;
+        private MTHControlLib.CheckBoxEx cbe_Temp4;
+        private MTHControlLib.CheckBoxEx cbe_Humidity3;
+        private MTHControlLib.CheckBoxEx cbe_Temp3;
+        private MTHControlLib.CheckBoxEx cbe_Humidity2;
+        private MTHControlLib.CheckBoxEx cbe_Temp2;
+        private MTHControlLib.CheckBoxEx cbe_Humidity1;
+        private MTHControlLib.CheckBoxEx cbe_Temp1;
         private System.Windows.Forms.ListView lst_info;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ImageList imageList1;
         private MTHControlLib.PanelEnhanced panelEnhanced1;
-        private SeeSharpTools.JY.GUI.StripChartX stripChartX1;
+        private SeeSharpTools.JY.GUI.StripChartX chartX;
     }
 }

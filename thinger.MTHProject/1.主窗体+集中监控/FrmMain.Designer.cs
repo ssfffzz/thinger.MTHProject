@@ -50,6 +50,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.mainPenalEx = new thinger.MTHControlLib.PanelEx();
+            this.led_SysState = new SeeSharpTools.JY.GUI.LED();
             this.top_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -217,6 +218,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.led_SysState);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.btnRightForm);
             this.panel1.Controls.Add(this.btnLeftForm);
@@ -342,6 +344,22 @@
             this.mainPenalEx.TabIndex = 2;
             this.mainPenalEx.TopGap = 20;
             // 
+            // led_SysState
+            // 
+            this.led_SysState.BlinkColor = System.Drawing.Color.Lime;
+            this.led_SysState.BlinkInterval = 1000;
+            this.led_SysState.BlinkOn = false;
+            this.led_SysState.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.led_SysState.Interacton = SeeSharpTools.JY.GUI.LED.InteractionStyle.Indicator;
+            this.led_SysState.Location = new System.Drawing.Point(1374, 20);
+            this.led_SysState.Name = "led_SysState";
+            this.led_SysState.OffColor = System.Drawing.Color.Red;
+            this.led_SysState.OnColor = System.Drawing.Color.Lime;
+            this.led_SysState.Size = new System.Drawing.Size(30, 30);
+            this.led_SysState.Style = SeeSharpTools.JY.GUI.LED.LedStyle.Circular;
+            this.led_SysState.TabIndex = 3;
+            this.led_SysState.Value = false;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -387,6 +405,7 @@
         private MTHControlLib.NaviButton naviButton4;
         private MTHControlLib.NaviButton naviButton2;
         private MTHControlLib.PanelEx mainPenalEx;
+        private SeeSharpTools.JY.GUI.LED led_SysState;
     }
 }
 

@@ -27,7 +27,14 @@ namespace thinger.MTHProject
             this.naviButtonList.Add(naviButton4);
             this.naviButtonList.Add(naviButton5);
             this.naviButtonList.Add(naviButton6);
+
+            //设置主线程定时器属性
+            this.storeTimer.Interval = 1000;//定时器刷新时间间隔
+            this.storeTimer.Tick += StoreTimer_Tick;
+            this.storeTimer.Start();
         }
+
+        
         #region 无边框移动
         private Point mPoint;
         private void Panel_MouseDown(object sender, MouseEventArgs e)
@@ -54,7 +61,10 @@ namespace thinger.MTHProject
             DialogResult result = MessageBox.Show("确认退出？", "退出提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.OK)
             {
-                //退出的话，需要做一些其他处理q
+                //退出的话，需要做一些其他处理
+                this.storeTimer.Stop();
+                this.currentForm.Close();
+                this.cts.Cancel();
             }
             else
             {
@@ -131,7 +141,7 @@ namespace thinger.MTHProject
                         ModbusObjectTree.AddLogAction = ((FrmMonitor)currentForm).AddLog;//关联日志委托
                         break;
                     case FormNames.系统配置:
-                        currentForm = new FrmParamSet();
+                        currentForm = new FrmParamSet(this.devicePath);
                         break;
                     case FormNames.配方管理:
                         currentForm = new FrmRecipe();
@@ -246,9 +256,14 @@ namespace thinger.MTHProject
             {
                 mct.PLCCommunication(ModbusObjectTree.Device, null, cts);
             }, cts.Token);
+        }
 
+        private System.Windows.Forms.Timer storeTimer = new System.Windows.Forms.Timer();
+        private void StoreTimer_Tick(object sender, EventArgs e)
+        {
+            this.led_SysState.Value = ModbusObjectTree.Device.IsConnected;//把modbus的连接状态直接复制给led灯
 
-
+            //写入数据库（待完成。。。。）
         }
     }
 }
