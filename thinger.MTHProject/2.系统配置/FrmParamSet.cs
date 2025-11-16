@@ -44,5 +44,11 @@ namespace thinger.MTHProject
                 }
             }
         }
+
+        private void btnGroupConfig_Click(object sender, EventArgs e)
+        {
+            FrmConfigGroup frmConfigGroup =new FrmConfigGroup();
+            frmConfigGroup.ShowDialog();
+        }
     }
 }

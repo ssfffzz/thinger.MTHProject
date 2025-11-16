@@ -98,6 +98,7 @@
             this.btnGroupConfig.Text = "通信组设置";
             this.btnGroupConfig.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGroupConfig.UseVisualStyleBackColor = false;
+            this.btnGroupConfig.Click += new System.EventHandler(this.btnGroupConfig_Click);
             // 
             // btnSaveConfig
             // 

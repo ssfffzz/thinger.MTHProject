@@ -31,3 +31,14 @@ C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataB
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.csproj.CopyComplete
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.dll
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DataBLL.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DataBLL.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DAL.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DataModels.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DAL.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\bin\Debug\thinger.DataModels.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.csproj.AssemblyReference.cache
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.csproj.CoreCompileInputs.cache
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.csproj.CopyComplete
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataBLL\obj\Debug\thinger.DataBLL.pdb

@@ -95,10 +95,25 @@
     <Compile Include="6.用户管理\FrmUserManage.Designer.cs">
       <DependentUpon>FrmUserManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="2.系统配置\FrmConfigGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.系统配置\FrmConfigGroup.Designer.cs">
+      <DependentUpon>FrmConfigGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.系统配置\FrmConfigVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.系统配置\FrmConfigVariable.Designer.cs">
+      <DependentUpon>FrmConfigVariable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="1.主窗体+集中监控\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.系统配置\FrmConfigGroup.resx">
+      <DependentUpon>FrmConfigGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="2.系统配置\FrmParamSet.resx">
       <DependentUpon>FrmParamSet.cs</DependentUpon>
