@@ -36,7 +36,7 @@ namespace thinger.EquipModel
         /// <summary>
         /// 变量【上升沿报警】
         /// </summary>
-        public bool PostAlarm { get; set; }
+        public bool PosAlarm { get; set; }
         /// <summary>
         /// 变量【下降沿报警】
         /// </summary>

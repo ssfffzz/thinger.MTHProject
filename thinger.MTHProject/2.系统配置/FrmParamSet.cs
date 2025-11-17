@@ -50,5 +50,10 @@ namespace thinger.MTHProject
             FrmConfigGroup frmConfigGroup =new FrmConfigGroup();
             frmConfigGroup.ShowDialog();
         }
+
+        private void btnVariableConfig_Click(object sender, EventArgs e)
+        {
+            new FrmConfigVariable().ShowDialog();
+        }
     }
 }

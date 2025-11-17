@@ -80,6 +80,7 @@
             this.btnVariableConfig.Text = "变量设置";
             this.btnVariableConfig.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVariableConfig.UseVisualStyleBackColor = false;
+            this.btnVariableConfig.Click += new System.EventHandler(this.btnVariableConfig_Click);
             // 
             // btnGroupConfig
             // 

@@ -115,6 +115,9 @@
     <EmbeddedResource Include="2.系统配置\FrmConfigGroup.resx">
       <DependentUpon>FrmConfigGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="2.系统配置\FrmConfigVariable.resx">
+      <DependentUpon>FrmConfigVariable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="2.系统配置\FrmParamSet.resx">
       <DependentUpon>FrmParamSet.cs</DependentUpon>
     </EmbeddedResource>
