@@ -89,7 +89,7 @@ namespace thinger.MTHProject
             this.dgv_GroupList.DataSource = null;
             this.dgv_GroupList.DataSource = totalGroups;
         }
-
+        //显示单元格行序号
         private void dgv_GroupList_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
         {
             DataGridViewHelper.DgvRowPostPaint((DataGridView)sender, e);
@@ -108,6 +108,11 @@ namespace thinger.MTHProject
         }
         #endregion
 
+        /// <summary>
+        /// 单行选中dgv，并将其属性值显示在文本框和下拉框中
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dgv_GroupList_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // 声明ModbusGroup对象变量
@@ -130,6 +135,7 @@ namespace thinger.MTHProject
             }
         }
 
+        #region 修改通信组
         private void btn_Modify_Click(object sender, EventArgs e)
         {
             if (this.dgv_GroupList.RowCount == 0)
@@ -142,6 +148,9 @@ namespace thinger.MTHProject
                 MessageBox.Show("通信组名称不存在，请检查", "修改提示");
                 return;
             }
+            DialogResult result = MessageBox.Show("确认修改通信组吗？", "修改确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.Cancel) return;
+
             //找到当前通信组对象，并更新属性
             ModbusGroup modbusGroup = totalGroups.Find(c => c.GroupName == this.txt_GroupName.Text.Trim());
             modbusGroup.StoreArea = this.cmb_StoreArea.Text;
@@ -150,7 +159,7 @@ namespace thinger.MTHProject
             modbusGroup.Remark = this.txt_Remark.Text.Trim();
             modbusGroup.GroupName = this.txt_GroupName.Text.Trim();
             //保存到Excel文件
-            MiniExcel.SaveAs(gPath, totalGroups,overwriteFile:true);
+            MiniExcel.SaveAs(gPath, totalGroups, overwriteFile: true);
             //刷新列表
             this.dgv_GroupList.Refresh();
         }
@@ -159,5 +168,64 @@ namespace thinger.MTHProject
         {
             return totalGroups.FindAll(c => c.GroupName == groupName).Count > 0;
         }
+        #endregion
+
+        #region 删除通信组
+        private void btn_Delete_Click(object sender, EventArgs e)
+        {
+            if (this.dgv_GroupList.RowCount == 0)
+            {
+                MessageBox.Show("当前没有要删除的通信组", "删除提示");
+                return;
+            }
+            //进一步从集合中判断通信是否存在
+            string groupName = this.dgv_GroupList.CurrentRow.Cells["GroupName"].Value.ToString();
+            if (!IsGroupNameExists(groupName))
+            {
+                MessageBox.Show("当前通信组名称不存在，请检查", "删除提示");
+                return;
+            }
+            DialogResult result = MessageBox.Show("确认删除通信组吗？", "删除确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (result == DialogResult.Cancel) return;
+
+            int deleteRowIndex = this.dgv_GroupList.CurrentRow.Index;
+            //从集合中删除
+            this.totalGroups.RemoveAll(c => c.GroupName == groupName);
+            //从excel表中删除(重新保存)
+            MiniExcel.SaveAs(gPath, totalGroups, overwriteFile: true);
+            //刷新dgv列表
+            RefreshGroups();
+        }
+
+        #endregion
+
+        #region 添加通信组
+        private void btn_Add_Click(object sender, EventArgs e)
+        {      
+            if (IsGroupNameExists(this.txt_GroupName.Text.Trim()))
+            {
+                MessageBox.Show("当前通信组名称已存在，请检查", "新增提示");
+                return;
+            }
+            ModbusGroup modbusGroup = new ModbusGroup()
+            {
+                GroupName = this.txt_GroupName.Text,
+                StoreArea = this.cmb_StoreArea.Text,
+                Start = (ushort)this.num_Start.Value,
+                Length = Convert.ToUInt16(this.num_Length.Value),
+                Remark = this.txt_Remark.Text
+            };
+            //更新到集合中
+            this.totalGroups.Add(modbusGroup);
+            //从excel表中删除(重新保存)
+            MiniExcel.SaveAs(gPath, totalGroups, overwriteFile: true);
+            //刷新dgv列表
+            RefreshGroups();
+        }
+
+
+        #endregion
+
+
     }
 }

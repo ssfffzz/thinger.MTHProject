@@ -6,14 +6,6 @@ C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.Equip
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.CopyComplete
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.dll
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.pdb
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.dll
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.pdb
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\MiniExcel.dll
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.AssemblyReference.cache
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.CoreCompileInputs.cache
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.CopyComplete
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.dll
-C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.pdb
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.dll
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.pdb
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\bin\Debug\MiniExcel.dll
@@ -22,3 +14,11 @@ C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\obj\Debug\
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger..ECB91758.Up2Date
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.dll
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\thinger.EquipModel.pdb
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\bin\Debug\MiniExcel.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.AssemblyReference.cache
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.CoreCompileInputs.cache
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.csproj.CopyComplete
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.dll
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.EquipModel\obj\Debug\thinger.EquipModel.pdb
