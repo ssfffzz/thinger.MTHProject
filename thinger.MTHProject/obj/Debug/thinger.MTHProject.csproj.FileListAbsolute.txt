@@ -215,3 +215,5 @@ C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger..970E45A6.Up2Date
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.exe
 C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.pdb
+C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.exe.config
