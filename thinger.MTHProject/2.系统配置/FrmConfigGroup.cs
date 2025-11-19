@@ -166,6 +166,7 @@ namespace thinger.MTHProject
 
         private bool IsGroupNameExists(string groupName)
         {
+            //FindAll方法，该方法会返回所有满足条件的元素（即所有GroupName等于groupName的ModbusGroup对象）的列表
             return totalGroups.FindAll(c => c.GroupName == groupName).Count > 0;
         }
         #endregion
@@ -195,13 +196,20 @@ namespace thinger.MTHProject
             MiniExcel.SaveAs(gPath, totalGroups, overwriteFile: true);
             //刷新dgv列表
             RefreshGroups();
+            if (this.dgv_GroupList.RowCount != 0)
+            {
+                //选中删除行的上一行
+                this.dgv_GroupList.Rows[this.dgv_GroupList.Rows.Count - 1].Selected = true;
+                this.dgv_GroupList.FirstDisplayedScrollingRowIndex = this.dgv_GroupList.Rows.Count - 1;
+                this.dgv_GroupList.CurrentCell = this.dgv_GroupList.Rows[this.dgv_GroupList.Rows.Count - 1].Cells[0];
+            }
         }
 
         #endregion
 
         #region 添加通信组
         private void btn_Add_Click(object sender, EventArgs e)
-        {      
+        {
             if (IsGroupNameExists(this.txt_GroupName.Text.Trim()))
             {
                 MessageBox.Show("当前通信组名称已存在，请检查", "新增提示");
@@ -221,11 +229,11 @@ namespace thinger.MTHProject
             MiniExcel.SaveAs(gPath, totalGroups, overwriteFile: true);
             //刷新dgv列表
             RefreshGroups();
+            //选中删除行的上一行
+            this.dgv_GroupList.Rows[this.dgv_GroupList.Rows.Count - 1].Selected = true;
+            this.dgv_GroupList.FirstDisplayedScrollingRowIndex = this.dgv_GroupList.Rows.Count - 1;
+            this.dgv_GroupList.CurrentCell = this.dgv_GroupList.Rows[this.dgv_GroupList.Rows.Count - 1].Cells[0];
         }
-
-
         #endregion
-
-
     }
 }

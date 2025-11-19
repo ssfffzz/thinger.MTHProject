@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
             this.chk_NegAlarm = new thinger.MTHControlLib.CheckBoxEx();
             this.chk_PosAlarm = new thinger.MTHControlLib.CheckBoxEx();
             this.cmb_DataType = new System.Windows.Forms.ComboBox();
-            this.cbm_GroupName = new System.Windows.Forms.ComboBox();
+            this.cmb_GroupName = new System.Windows.Forms.ComboBox();
             this.num_Scale = new System.Windows.Forms.NumericUpDown();
             this.num_OffsetOrLength = new System.Windows.Forms.NumericUpDown();
             this.num_Offset = new System.Windows.Forms.NumericUpDown();
@@ -82,7 +82,7 @@
             this.panelEnhanced1.Controls.Add(this.chk_NegAlarm);
             this.panelEnhanced1.Controls.Add(this.chk_PosAlarm);
             this.panelEnhanced1.Controls.Add(this.cmb_DataType);
-            this.panelEnhanced1.Controls.Add(this.cbm_GroupName);
+            this.panelEnhanced1.Controls.Add(this.cmb_GroupName);
             this.panelEnhanced1.Controls.Add(this.num_Scale);
             this.panelEnhanced1.Controls.Add(this.num_OffsetOrLength);
             this.panelEnhanced1.Controls.Add(this.num_Offset);
@@ -148,14 +148,14 @@
             this.cmb_DataType.Size = new System.Drawing.Size(115, 27);
             this.cmb_DataType.TabIndex = 36;
             // 
-            // cbm_GroupName
+            // cmb_GroupName
             // 
-            this.cbm_GroupName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.cbm_GroupName.FormattingEnabled = true;
-            this.cbm_GroupName.Location = new System.Drawing.Point(127, 102);
-            this.cbm_GroupName.Name = "cbm_GroupName";
-            this.cbm_GroupName.Size = new System.Drawing.Size(115, 27);
-            this.cbm_GroupName.TabIndex = 36;
+            this.cmb_GroupName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cmb_GroupName.FormattingEnabled = true;
+            this.cmb_GroupName.Location = new System.Drawing.Point(349, 50);
+            this.cmb_GroupName.Name = "cmb_GroupName";
+            this.cmb_GroupName.Size = new System.Drawing.Size(407, 27);
+            this.cmb_GroupName.TabIndex = 36;
             // 
             // num_Scale
             // 
@@ -168,7 +168,7 @@
             // num_OffsetOrLength
             // 
             this.num_OffsetOrLength.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.num_OffsetOrLength.Location = new System.Drawing.Point(800, 98);
+            this.num_OffsetOrLength.Location = new System.Drawing.Point(839, 98);
             this.num_OffsetOrLength.Name = "num_OffsetOrLength";
             this.num_OffsetOrLength.Size = new System.Drawing.Size(67, 29);
             this.num_OffsetOrLength.TabIndex = 34;
@@ -184,7 +184,7 @@
             // num_Start
             // 
             this.num_Start.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.num_Start.Location = new System.Drawing.Point(603, 99);
+            this.num_Start.Location = new System.Drawing.Point(649, 99);
             this.num_Start.Name = "num_Start";
             this.num_Start.Size = new System.Drawing.Size(70, 29);
             this.num_Start.TabIndex = 35;
@@ -193,17 +193,17 @@
             // 
             this.dgv_VariableList.AllowUserToAddRows = false;
             this.dgv_VariableList.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dgv_VariableList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dgv_VariableList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgv_VariableList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VariableList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VariableList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dgv_VariableList.ColumnHeadersHeight = 35;
             this.dgv_VariableList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.VarName,
@@ -216,35 +216,37 @@
             this.NegAlarm,
             this.GroupName,
             this.Remark});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_VariableList.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_VariableList.DefaultCellStyle = dataGridViewCellStyle23;
             this.dgv_VariableList.EnableHeadersVisualStyles = false;
             this.dgv_VariableList.GridColor = System.Drawing.Color.Silver;
             this.dgv_VariableList.Location = new System.Drawing.Point(39, 279);
             this.dgv_VariableList.Name = "dgv_VariableList";
             this.dgv_VariableList.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VariableList.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.dgv_VariableList.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VariableList.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.dgv_VariableList.RowsDefaultCellStyle = dataGridViewCellStyle25;
             this.dgv_VariableList.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dgv_VariableList.RowTemplate.Height = 23;
             this.dgv_VariableList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_VariableList.Size = new System.Drawing.Size(1030, 442);
             this.dgv_VariableList.TabIndex = 33;
+            this.dgv_VariableList.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv_VariableList_CellFormatting);
+            this.dgv_VariableList.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dgv_VariableList_RowPostPaint);
             // 
             // VarName
             // 
@@ -354,7 +356,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(890, 99);
+            this.label7.Location = new System.Drawing.Point(903, 99);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(114, 29);
             this.label7.TabIndex = 23;
@@ -394,7 +396,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(694, 100);
+            this.label5.Location = new System.Drawing.Point(735, 100);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 29);
             this.label5.TabIndex = 23;
@@ -406,7 +408,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(506, 99);
+            this.label4.Location = new System.Drawing.Point(555, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 29);
             this.label4.TabIndex = 24;
@@ -424,7 +426,7 @@
             // txt_VariableName
             // 
             this.txt_VariableName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_VariableName.Location = new System.Drawing.Point(360, 97);
+            this.txt_VariableName.Location = new System.Drawing.Point(425, 97);
             this.txt_VariableName.Name = "txt_VariableName";
             this.txt_VariableName.Size = new System.Drawing.Size(137, 29);
             this.txt_VariableName.TabIndex = 29;
@@ -458,7 +460,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(265, 99);
+            this.label3.Location = new System.Drawing.Point(330, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 29);
             this.label3.TabIndex = 26;
@@ -470,7 +472,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(36, 100);
+            this.label2.Location = new System.Drawing.Point(238, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 29);
             this.label2.TabIndex = 27;
@@ -533,7 +535,7 @@
 
         private MTHControlLib.PanelEnhanced panelEnhanced1;
         private System.Windows.Forms.ComboBox cmb_DataType;
-        private System.Windows.Forms.ComboBox cbm_GroupName;
+        private System.Windows.Forms.ComboBox cmb_GroupName;
         private System.Windows.Forms.NumericUpDown num_Scale;
         private System.Windows.Forms.NumericUpDown num_OffsetOrLength;
         private System.Windows.Forms.NumericUpDown num_Start;
