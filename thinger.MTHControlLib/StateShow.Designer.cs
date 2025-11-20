@@ -66,6 +66,7 @@
             this.lbl_Title.TabIndex = 0;
             this.lbl_Title.Text = "1#站点温度高限";
             this.lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_Title.DoubleClick += new System.EventHandler(this.StateShow_DoubleClick);
             // 
             // lbl_Value
             // 
@@ -78,6 +79,7 @@
             this.lbl_Value.TabIndex = 1;
             this.lbl_Value.Text = "0.0";
             this.lbl_Value.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_Value.DoubleClick += new System.EventHandler(this.StateShow_DoubleClick);
             // 
             // lbl_Unit
             // 
@@ -90,6 +92,7 @@
             this.lbl_Unit.TabIndex = 2;
             this.lbl_Unit.Text = "℃";
             this.lbl_Unit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_Unit.DoubleClick += new System.EventHandler(this.StateShow_DoubleClick);
             // 
             // led_Alarm
             // 
@@ -107,6 +110,7 @@
             this.led_Alarm.Style = SeeSharpTools.JY.GUI.LED.LedStyle.Circular;
             this.led_Alarm.TabIndex = 3;
             this.led_Alarm.Value = false;
+            this.led_Alarm.DoubleClick += new System.EventHandler(this.StateShow_DoubleClick);
             // 
             // StateShow
             // 

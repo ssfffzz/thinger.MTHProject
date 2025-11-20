@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
             this.chk_NegAlarm = new thinger.MTHControlLib.CheckBoxEx();
             this.chk_PosAlarm = new thinger.MTHControlLib.CheckBoxEx();
@@ -43,6 +43,16 @@
             this.num_Offset = new System.Windows.Forms.NumericUpDown();
             this.num_Start = new System.Windows.Forms.NumericUpDown();
             this.dgv_VariableList = new System.Windows.Forms.DataGridView();
+            this.VarName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Start = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OffsetOrLength = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Scale = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Offset = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PosAlarm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NegAlarm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GroupName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_Modify = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -58,16 +68,6 @@
             this.btn_Exit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.VarName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Start = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OffsetOrLength = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Scale = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Offset = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PosAlarm = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NegAlarm = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GroupName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelEnhanced1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_Scale)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_OffsetOrLength)).BeginInit();
@@ -210,17 +210,17 @@
             // 
             this.dgv_VariableList.AllowUserToAddRows = false;
             this.dgv_VariableList.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dgv_VariableList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dgv_VariableList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_VariableList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VariableList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VariableList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_VariableList.ColumnHeadersHeight = 35;
             this.dgv_VariableList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.VarName,
@@ -233,30 +233,30 @@
             this.NegAlarm,
             this.GroupName,
             this.Remark});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_VariableList.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_VariableList.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_VariableList.EnableHeadersVisualStyles = false;
             this.dgv_VariableList.GridColor = System.Drawing.Color.Silver;
             this.dgv_VariableList.Location = new System.Drawing.Point(39, 245);
             this.dgv_VariableList.Name = "dgv_VariableList";
             this.dgv_VariableList.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VariableList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.dgv_VariableList.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VariableList.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.dgv_VariableList.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_VariableList.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dgv_VariableList.RowTemplate.Height = 23;
             this.dgv_VariableList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -265,6 +265,83 @@
             this.dgv_VariableList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VariableList_CellClick);
             this.dgv_VariableList.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv_VariableList_CellFormatting);
             this.dgv_VariableList.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dgv_VariableList_RowPostPaint);
+            // 
+            // VarName
+            // 
+            this.VarName.DataPropertyName = "VarName";
+            this.VarName.HeaderText = "变量名称";
+            this.VarName.Name = "VarName";
+            this.VarName.ReadOnly = true;
+            this.VarName.Width = 150;
+            // 
+            // Start
+            // 
+            this.Start.DataPropertyName = "Start";
+            this.Start.HeaderText = "起始索引";
+            this.Start.Name = "Start";
+            this.Start.ReadOnly = true;
+            this.Start.Width = 80;
+            // 
+            // OffsetOrLength
+            // 
+            this.OffsetOrLength.DataPropertyName = "OffsetOrLength";
+            this.OffsetOrLength.HeaderText = "位偏移/长度";
+            this.OffsetOrLength.Name = "OffsetOrLength";
+            this.OffsetOrLength.ReadOnly = true;
+            // 
+            // DataType
+            // 
+            this.DataType.DataPropertyName = "DataType";
+            this.DataType.HeaderText = "数据类型";
+            this.DataType.Name = "DataType";
+            this.DataType.ReadOnly = true;
+            // 
+            // Scale
+            // 
+            this.Scale.DataPropertyName = "Scale";
+            this.Scale.HeaderText = "线性系数";
+            this.Scale.Name = "Scale";
+            this.Scale.ReadOnly = true;
+            this.Scale.Width = 80;
+            // 
+            // Offset
+            // 
+            this.Offset.DataPropertyName = "Offset";
+            this.Offset.HeaderText = "偏移量";
+            this.Offset.Name = "Offset";
+            this.Offset.ReadOnly = true;
+            this.Offset.Width = 80;
+            // 
+            // PosAlarm
+            // 
+            this.PosAlarm.DataPropertyName = "PosAlarm";
+            this.PosAlarm.HeaderText = "上升沿";
+            this.PosAlarm.Name = "PosAlarm";
+            this.PosAlarm.ReadOnly = true;
+            this.PosAlarm.Width = 70;
+            // 
+            // NegAlarm
+            // 
+            this.NegAlarm.DataPropertyName = "NegAlarm";
+            this.NegAlarm.HeaderText = "下降沿";
+            this.NegAlarm.Name = "NegAlarm";
+            this.NegAlarm.ReadOnly = true;
+            this.NegAlarm.Width = 70;
+            // 
+            // GroupName
+            // 
+            this.GroupName.DataPropertyName = "GroupName";
+            this.GroupName.HeaderText = "通信组";
+            this.GroupName.Name = "GroupName";
+            this.GroupName.ReadOnly = true;
+            // 
+            // Remark
+            // 
+            this.Remark.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Remark.DataPropertyName = "Remark";
+            this.Remark.HeaderText = "备注说明";
+            this.Remark.Name = "Remark";
+            this.Remark.ReadOnly = true;
             // 
             // btn_Delete
             // 
@@ -457,83 +534,6 @@
             this.label4.TabIndex = 24;
             this.label4.Text = "起始索引：";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // VarName
-            // 
-            this.VarName.DataPropertyName = "VarName";
-            this.VarName.HeaderText = "变量名称";
-            this.VarName.Name = "VarName";
-            this.VarName.ReadOnly = true;
-            this.VarName.Width = 150;
-            // 
-            // Start
-            // 
-            this.Start.DataPropertyName = "Start";
-            this.Start.HeaderText = "起始索引";
-            this.Start.Name = "Start";
-            this.Start.ReadOnly = true;
-            this.Start.Width = 80;
-            // 
-            // OffsetOrLength
-            // 
-            this.OffsetOrLength.DataPropertyName = "OffsetOrLength";
-            this.OffsetOrLength.HeaderText = "位偏移/长度";
-            this.OffsetOrLength.Name = "OffsetOrLength";
-            this.OffsetOrLength.ReadOnly = true;
-            // 
-            // DataType
-            // 
-            this.DataType.DataPropertyName = "DataType";
-            this.DataType.HeaderText = "数据类型";
-            this.DataType.Name = "DataType";
-            this.DataType.ReadOnly = true;
-            // 
-            // Scale
-            // 
-            this.Scale.DataPropertyName = "Scale";
-            this.Scale.HeaderText = "线性系数";
-            this.Scale.Name = "Scale";
-            this.Scale.ReadOnly = true;
-            this.Scale.Width = 80;
-            // 
-            // Offset
-            // 
-            this.Offset.DataPropertyName = "Offset";
-            this.Offset.HeaderText = "偏移量";
-            this.Offset.Name = "Offset";
-            this.Offset.ReadOnly = true;
-            this.Offset.Width = 80;
-            // 
-            // PosAlarm
-            // 
-            this.PosAlarm.DataPropertyName = "PosAlarm";
-            this.PosAlarm.HeaderText = "上升沿";
-            this.PosAlarm.Name = "PosAlarm";
-            this.PosAlarm.ReadOnly = true;
-            this.PosAlarm.Width = 70;
-            // 
-            // NegAlarm
-            // 
-            this.NegAlarm.DataPropertyName = "NegAlarm";
-            this.NegAlarm.HeaderText = "下降沿";
-            this.NegAlarm.Name = "NegAlarm";
-            this.NegAlarm.ReadOnly = true;
-            this.NegAlarm.Width = 70;
-            // 
-            // GroupName
-            // 
-            this.GroupName.DataPropertyName = "GroupName";
-            this.GroupName.HeaderText = "通信组";
-            this.GroupName.Name = "GroupName";
-            this.GroupName.ReadOnly = true;
-            // 
-            // Remark
-            // 
-            this.Remark.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Remark.DataPropertyName = "Remark";
-            this.Remark.HeaderText = "备注说明";
-            this.Remark.Name = "Remark";
-            this.Remark.ReadOnly = true;
             // 
             // FrmConfigVariable
             // 
