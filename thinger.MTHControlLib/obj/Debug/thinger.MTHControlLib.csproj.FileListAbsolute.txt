@@ -75,3 +75,6 @@ C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.MTHControlLib\obj\
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.csproj.CoreCompileInputs.cache
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.dll
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.pdb
+C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHControlLib\bin\Debug\SeeSharpTools.JY.GUI.dll
+C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.StateShow.resources
+C:\Users\admin\Desktop\C#高阶\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger..A6586400.Up2Date

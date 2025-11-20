@@ -134,7 +134,7 @@ namespace thinger.MTHProject
                 }
             }
         }
-
+        //通信组名称是唯一标识，不允许修改
         #region 修改通信组
         private void btn_Modify_Click(object sender, EventArgs e)
         {

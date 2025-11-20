@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.titleShow1 = new thinger.MTHControlLib.TitleShow();
             this.label1 = new System.Windows.Forms.Label();
+            this.stateShow1 = new thinger.MTHControlLib.StateShow();
             this.panelEnhanced1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +48,7 @@
             // 
             this.panelEnhanced1.BackgroundImage = global::thinger.MTHProject.Properties.Resources.BackGround;
             this.panelEnhanced1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelEnhanced1.Controls.Add(this.stateShow1);
             this.panelEnhanced1.Controls.Add(this.btnVariableConfig);
             this.panelEnhanced1.Controls.Add(this.btnGroupConfig);
             this.panelEnhanced1.Controls.Add(this.btnSaveConfig);
@@ -201,6 +203,14 @@
             this.label1.Text = "设备IP地址：";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // stateShow1
+            // 
+            this.stateShow1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.stateShow1.Location = new System.Drawing.Point(37, 95);
+            this.stateShow1.Name = "stateShow1";
+            this.stateShow1.Size = new System.Drawing.Size(401, 50);
+            this.stateShow1.TabIndex = 4;
+            // 
             // FrmParamSet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -229,5 +239,6 @@
         private System.Windows.Forms.Button btnSaveConfig;
         private System.Windows.Forms.Button btnVariableConfig;
         private System.Windows.Forms.Button btnGroupConfig;
+        private MTHControlLib.StateShow stateShow1;
     }
 }
