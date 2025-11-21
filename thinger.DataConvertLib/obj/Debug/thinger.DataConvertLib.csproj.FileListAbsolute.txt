@@ -96,3 +96,10 @@ C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataConvertLib\obj
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.csproj.CoreCompileInputs.cache
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.dll
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.pdb
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\bin\Debug\thinger.DataConvertLib.xml
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\bin\Debug\thinger.DataConvertLib.dll
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\bin\Debug\thinger.DataConvertLib.pdb
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.dll
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataConvertLib\obj\Debug\thinger.DataConvertLib.pdb

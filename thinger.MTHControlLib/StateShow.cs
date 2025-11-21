@@ -96,7 +96,13 @@ namespace thinger.MTHControlLib
             if (ControlDoubleClick != null)
             {
                 ControlDoubleClick(this, e);
+                //ControlDoubleClick?.Invoke(this, e);
             }
         }
+        //    //当用户单机标签的时候，激发导航按钮的单击事件
+        //    private void lbl_Title_Click(object sender, EventArgs e)
+        //    {
+        //        this.Click?.Invoke(this, e);//this代表当前控件，用label的单击事件触发控件的单击事件
+        //    }
     }
 }

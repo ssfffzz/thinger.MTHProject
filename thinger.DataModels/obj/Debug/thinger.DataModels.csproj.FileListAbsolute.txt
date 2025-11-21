@@ -40,3 +40,9 @@ C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataModels\obj\Deb
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.CoreCompileInputs.cache
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.dll
 C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.pdb
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\bin\Debug\thinger.DataModels.dll
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\bin\Debug\thinger.DataModels.pdb
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.dll
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.DataModels\obj\Debug\thinger.DataModels.pdb

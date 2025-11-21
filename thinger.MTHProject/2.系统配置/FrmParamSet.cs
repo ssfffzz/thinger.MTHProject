@@ -55,5 +55,10 @@ namespace thinger.MTHProject
         {
             new FrmConfigVariable().ShowDialog();
         }
+
+        private void stateShow1_ControlDoubleClick(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello world");
+        }
     }
 }

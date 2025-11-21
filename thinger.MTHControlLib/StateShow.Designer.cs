@@ -39,8 +39,8 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.42188F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.57813F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.80608F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.19392F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 54F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Controls.Add(this.lbl_Title, 0, 0);
@@ -52,7 +52,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(401, 50);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(350, 41);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lbl_Title
@@ -62,7 +62,7 @@
             this.lbl_Title.ForeColor = System.Drawing.Color.White;
             this.lbl_Title.Location = new System.Drawing.Point(3, 0);
             this.lbl_Title.Name = "lbl_Title";
-            this.lbl_Title.Size = new System.Drawing.Size(238, 50);
+            this.lbl_Title.Size = new System.Drawing.Size(182, 41);
             this.lbl_Title.TabIndex = 0;
             this.lbl_Title.Text = "1#站点温度高限";
             this.lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,9 +73,9 @@
             this.lbl_Value.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Value.Font = new System.Drawing.Font("Droid Sans Fallback", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Value.ForeColor = System.Drawing.Color.White;
-            this.lbl_Value.Location = new System.Drawing.Point(247, 0);
+            this.lbl_Value.Location = new System.Drawing.Point(191, 0);
             this.lbl_Value.Name = "lbl_Value";
-            this.lbl_Value.Size = new System.Drawing.Size(46, 50);
+            this.lbl_Value.Size = new System.Drawing.Size(51, 41);
             this.lbl_Value.TabIndex = 1;
             this.lbl_Value.Text = "0.0";
             this.lbl_Value.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,9 +86,9 @@
             this.lbl_Unit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Unit.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl_Unit.ForeColor = System.Drawing.Color.White;
-            this.lbl_Unit.Location = new System.Drawing.Point(299, 0);
+            this.lbl_Unit.Location = new System.Drawing.Point(248, 0);
             this.lbl_Unit.Name = "lbl_Unit";
-            this.lbl_Unit.Size = new System.Drawing.Size(48, 50);
+            this.lbl_Unit.Size = new System.Drawing.Size(48, 41);
             this.lbl_Unit.TabIndex = 2;
             this.lbl_Unit.Text = "℃";
             this.lbl_Unit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,7 +102,7 @@
             this.led_Alarm.BlinkOn = false;
             this.led_Alarm.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.led_Alarm.Interacton = SeeSharpTools.JY.GUI.LED.InteractionStyle.Indicator;
-            this.led_Alarm.Location = new System.Drawing.Point(360, 10);
+            this.led_Alarm.Location = new System.Drawing.Point(309, 5);
             this.led_Alarm.Name = "led_Alarm";
             this.led_Alarm.OffColor = System.Drawing.Color.Red;
             this.led_Alarm.OnColor = System.Drawing.Color.Lime;
@@ -119,7 +119,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "StateShow";
-            this.Size = new System.Drawing.Size(401, 50);
+            this.Size = new System.Drawing.Size(350, 41);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
