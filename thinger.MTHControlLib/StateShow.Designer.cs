@@ -104,8 +104,8 @@
             this.led_Alarm.Interacton = SeeSharpTools.JY.GUI.LED.InteractionStyle.Indicator;
             this.led_Alarm.Location = new System.Drawing.Point(309, 5);
             this.led_Alarm.Name = "led_Alarm";
-            this.led_Alarm.OffColor = System.Drawing.Color.Red;
-            this.led_Alarm.OnColor = System.Drawing.Color.Lime;
+            this.led_Alarm.OffColor = System.Drawing.Color.Lime;
+            this.led_Alarm.OnColor = System.Drawing.Color.Red;
             this.led_Alarm.Size = new System.Drawing.Size(30, 30);
             this.led_Alarm.Style = SeeSharpTools.JY.GUI.LED.LedStyle.Circular;
             this.led_Alarm.TabIndex = 3;

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmParamSet));
-            this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
+            this.MainPanel = new thinger.MTHControlLib.PanelEnhanced();
             this.checkBoxEx12 = new thinger.MTHControlLib.CheckBoxEx();
             this.checkBoxEx8 = new thinger.MTHControlLib.CheckBoxEx();
             this.checkBoxEx4 = new thinger.MTHControlLib.CheckBoxEx();
@@ -82,70 +82,70 @@
             this.label2 = new System.Windows.Forms.Label();
             this.titleShow1 = new thinger.MTHControlLib.TitleShow();
             this.label1 = new System.Windows.Forms.Label();
-            this.panelEnhanced1.SuspendLayout();
+            this.MainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelEnhanced1
+            // MainPanel
             // 
-            this.panelEnhanced1.BackgroundImage = global::thinger.MTHProject.Properties.Resources.BackGround;
-            this.panelEnhanced1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx12);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx8);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx4);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx11);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx7);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx2);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx10);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx6);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx3);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx9);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx5);
-            this.panelEnhanced1.Controls.Add(this.checkBoxEx1);
-            this.panelEnhanced1.Controls.Add(this.stateShow24);
-            this.panelEnhanced1.Controls.Add(this.stateShow16);
-            this.panelEnhanced1.Controls.Add(this.stateShow8);
-            this.panelEnhanced1.Controls.Add(this.stateShow23);
-            this.panelEnhanced1.Controls.Add(this.stateShow15);
-            this.panelEnhanced1.Controls.Add(this.stateShow7);
-            this.panelEnhanced1.Controls.Add(this.stateShow22);
-            this.panelEnhanced1.Controls.Add(this.stateShow14);
-            this.panelEnhanced1.Controls.Add(this.stateShow4);
-            this.panelEnhanced1.Controls.Add(this.stateShow21);
-            this.panelEnhanced1.Controls.Add(this.stateShow13);
-            this.panelEnhanced1.Controls.Add(this.stateShow6);
-            this.panelEnhanced1.Controls.Add(this.stateShow20);
-            this.panelEnhanced1.Controls.Add(this.stateShow12);
-            this.panelEnhanced1.Controls.Add(this.stateShow19);
-            this.panelEnhanced1.Controls.Add(this.stateShow11);
-            this.panelEnhanced1.Controls.Add(this.stateShow18);
-            this.panelEnhanced1.Controls.Add(this.stateShow3);
-            this.panelEnhanced1.Controls.Add(this.stateShow10);
-            this.panelEnhanced1.Controls.Add(this.titleShow7);
-            this.panelEnhanced1.Controls.Add(this.stateShow5);
-            this.panelEnhanced1.Controls.Add(this.titleShow5);
-            this.panelEnhanced1.Controls.Add(this.stateShow17);
-            this.panelEnhanced1.Controls.Add(this.stateShow2);
-            this.panelEnhanced1.Controls.Add(this.stateShow9);
-            this.panelEnhanced1.Controls.Add(this.titleShow6);
-            this.panelEnhanced1.Controls.Add(this.titleShow3);
-            this.panelEnhanced1.Controls.Add(this.titleShow4);
-            this.panelEnhanced1.Controls.Add(this.stateShow1);
-            this.panelEnhanced1.Controls.Add(this.titleShow2);
-            this.panelEnhanced1.Controls.Add(this.btnVariableConfig);
-            this.panelEnhanced1.Controls.Add(this.btnGroupConfig);
-            this.panelEnhanced1.Controls.Add(this.btnSaveConfig);
-            this.panelEnhanced1.Controls.Add(this.txtSlaveId);
-            this.panelEnhanced1.Controls.Add(this.txtPort);
-            this.panelEnhanced1.Controls.Add(this.txtIP);
-            this.panelEnhanced1.Controls.Add(this.label3);
-            this.panelEnhanced1.Controls.Add(this.label2);
-            this.panelEnhanced1.Controls.Add(this.titleShow1);
-            this.panelEnhanced1.Controls.Add(this.label1);
-            this.panelEnhanced1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelEnhanced1.Location = new System.Drawing.Point(0, 0);
-            this.panelEnhanced1.Name = "panelEnhanced1";
-            this.panelEnhanced1.Size = new System.Drawing.Size(1394, 716);
-            this.panelEnhanced1.TabIndex = 0;
+            this.MainPanel.BackgroundImage = global::thinger.MTHProject.Properties.Resources.BackGround;
+            this.MainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MainPanel.Controls.Add(this.checkBoxEx12);
+            this.MainPanel.Controls.Add(this.checkBoxEx8);
+            this.MainPanel.Controls.Add(this.checkBoxEx4);
+            this.MainPanel.Controls.Add(this.checkBoxEx11);
+            this.MainPanel.Controls.Add(this.checkBoxEx7);
+            this.MainPanel.Controls.Add(this.checkBoxEx2);
+            this.MainPanel.Controls.Add(this.checkBoxEx10);
+            this.MainPanel.Controls.Add(this.checkBoxEx6);
+            this.MainPanel.Controls.Add(this.checkBoxEx3);
+            this.MainPanel.Controls.Add(this.checkBoxEx9);
+            this.MainPanel.Controls.Add(this.checkBoxEx5);
+            this.MainPanel.Controls.Add(this.checkBoxEx1);
+            this.MainPanel.Controls.Add(this.stateShow24);
+            this.MainPanel.Controls.Add(this.stateShow16);
+            this.MainPanel.Controls.Add(this.stateShow8);
+            this.MainPanel.Controls.Add(this.stateShow23);
+            this.MainPanel.Controls.Add(this.stateShow15);
+            this.MainPanel.Controls.Add(this.stateShow7);
+            this.MainPanel.Controls.Add(this.stateShow22);
+            this.MainPanel.Controls.Add(this.stateShow14);
+            this.MainPanel.Controls.Add(this.stateShow4);
+            this.MainPanel.Controls.Add(this.stateShow21);
+            this.MainPanel.Controls.Add(this.stateShow13);
+            this.MainPanel.Controls.Add(this.stateShow6);
+            this.MainPanel.Controls.Add(this.stateShow20);
+            this.MainPanel.Controls.Add(this.stateShow12);
+            this.MainPanel.Controls.Add(this.stateShow19);
+            this.MainPanel.Controls.Add(this.stateShow11);
+            this.MainPanel.Controls.Add(this.stateShow18);
+            this.MainPanel.Controls.Add(this.stateShow3);
+            this.MainPanel.Controls.Add(this.stateShow10);
+            this.MainPanel.Controls.Add(this.titleShow7);
+            this.MainPanel.Controls.Add(this.stateShow5);
+            this.MainPanel.Controls.Add(this.titleShow5);
+            this.MainPanel.Controls.Add(this.stateShow17);
+            this.MainPanel.Controls.Add(this.stateShow2);
+            this.MainPanel.Controls.Add(this.stateShow9);
+            this.MainPanel.Controls.Add(this.titleShow6);
+            this.MainPanel.Controls.Add(this.titleShow3);
+            this.MainPanel.Controls.Add(this.titleShow4);
+            this.MainPanel.Controls.Add(this.stateShow1);
+            this.MainPanel.Controls.Add(this.titleShow2);
+            this.MainPanel.Controls.Add(this.btnVariableConfig);
+            this.MainPanel.Controls.Add(this.btnGroupConfig);
+            this.MainPanel.Controls.Add(this.btnSaveConfig);
+            this.MainPanel.Controls.Add(this.txtSlaveId);
+            this.MainPanel.Controls.Add(this.txtPort);
+            this.MainPanel.Controls.Add(this.txtIP);
+            this.MainPanel.Controls.Add(this.label3);
+            this.MainPanel.Controls.Add(this.label2);
+            this.MainPanel.Controls.Add(this.titleShow1);
+            this.MainPanel.Controls.Add(this.label1);
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(1394, 716);
+            this.MainPanel.TabIndex = 0;
             // 
             // checkBoxEx12
             // 
@@ -872,19 +872,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1394, 716);
-            this.Controls.Add(this.panelEnhanced1);
+            this.Controls.Add(this.MainPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmParamSet";
             this.Text = "系统配置";
-            this.panelEnhanced1.ResumeLayout(false);
-            this.panelEnhanced1.PerformLayout();
+            this.MainPanel.ResumeLayout(false);
+            this.MainPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private MTHControlLib.PanelEnhanced panelEnhanced1;
+        private MTHControlLib.PanelEnhanced MainPanel;
         private MTHControlLib.TitleShow titleShow1;
         private System.Windows.Forms.TextBox txtPort;
         private System.Windows.Forms.TextBox txtIP;

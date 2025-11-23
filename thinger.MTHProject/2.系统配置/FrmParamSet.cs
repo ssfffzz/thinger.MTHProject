@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using thinger.Communication;
+using thinger.MTHControlLib;
 using thinger.ToolLib;
 
 namespace thinger.MTHProject
@@ -21,8 +22,10 @@ namespace thinger.MTHProject
             this.txtIP.Text = ModbusObjectTree.Device.IPAddress;
             this.txtPort.Text = ModbusObjectTree.Device.Port.ToString();
             this.txtSlaveId.Text = ModbusObjectTree.Device.SlaveId.ToString();
+            BindEvnrt();
         }
 
+        #region 确认设置按钮实现
         private string devPath = string.Empty;
         private void btnSaveConfig_Click(object sender, EventArgs e)
         {
@@ -44,10 +47,12 @@ namespace thinger.MTHProject
                 }
             }
         }
+        #endregion
 
+        #region 通信组配置和变量配置窗口显示
         private void btnGroupConfig_Click(object sender, EventArgs e)
         {
-            FrmConfigGroup frmConfigGroup =new FrmConfigGroup();
+            FrmConfigGroup frmConfigGroup = new FrmConfigGroup();
             frmConfigGroup.ShowDialog();
         }
 
@@ -55,10 +60,56 @@ namespace thinger.MTHProject
         {
             new FrmConfigVariable().ShowDialog();
         }
+        #endregion
 
-        private void stateShow1_ControlDoubleClick(object sender, EventArgs e)
+        #region 绑定stateshow控件的双击事件和复选框事件
+        private void BindEvnrt()
         {
-            MessageBox.Show("hello world");
+            foreach (var item in this.MainPanel.Controls.OfType<StateShow>())
+            {
+                if (item.BindVarName != null && item.BindVarName.Length > 0)
+                {
+                    item.ControlDoubleClick += Common_ControlDoubleClick;
+                }
+            }
+            foreach (var item in this.MainPanel.Controls.OfType<CheckBoxEx>())
+            {
+                if (item.Tag != null && item.Tag.ToString().Length > 0)
+                {
+                    item.CheckedChanged += Common_CheckedChanged;
+                }
+            }
         }
+
+        // this.stateShow1.ControlDoubleClick += new System.EventHandler(this.stateShow1_ControlDoubleClick);
+        private void Common_ControlDoubleClick(object sender, EventArgs e)
+        {
+            MessageBox.Show("111");
+        }
+        private void Common_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("222");
+        }
+        #endregion
+
+        #region 绑定并设置参数设置值和报警是否启用
+        private void GetLimitParamValue()
+        {
+            if (ModbusObjectTree.Device.IsConnected)
+            {
+                foreach (var item in this.MainPanel.Controls.OfType<StateShow>())
+                {
+                    if (item.BindVarName != null && item.BindVarName.Length > 0)
+                    {
+                        //获取当前要显示的值
+                        string cValue = ModbusObjectTree.Device[item.BindVarName]?.ToString();
+
+                    }
+                }
+            }
+           
+
+        }
+        #endregion
     }
 }

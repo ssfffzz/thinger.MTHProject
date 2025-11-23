@@ -260,3 +260,6 @@ C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHProje
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger..970E45A6.Up2Date
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.exe
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.pdb
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.exe.config
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmConfigGroup.resources
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmConfigVariable.resources

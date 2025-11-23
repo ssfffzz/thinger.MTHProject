@@ -95,3 +95,5 @@ C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHContr
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger..A6586400.Up2Date
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.dll
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.pdb
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.StateShow.resources
+C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.csproj.CopyComplete
