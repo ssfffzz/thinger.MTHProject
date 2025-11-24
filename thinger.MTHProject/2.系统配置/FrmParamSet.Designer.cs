@@ -329,7 +329,7 @@
             // 
             // stateShow24
             // 
-            this.stateShow24.AlarmVarName = null;
+            this.stateShow24.AlarmVarName = "模块6湿度低";
             this.stateShow24.BackColor = System.Drawing.Color.Transparent;
             this.stateShow24.BindVarName = "模块6湿度低限";
             this.stateShow24.CurrentValue = "0.0";
@@ -343,7 +343,7 @@
             // 
             // stateShow16
             // 
-            this.stateShow16.AlarmVarName = null;
+            this.stateShow16.AlarmVarName = "模块5湿度低";
             this.stateShow16.BackColor = System.Drawing.Color.Transparent;
             this.stateShow16.BindVarName = "模块5湿度低限";
             this.stateShow16.CurrentValue = "0.0";
@@ -357,7 +357,7 @@
             // 
             // stateShow8
             // 
-            this.stateShow8.AlarmVarName = null;
+            this.stateShow8.AlarmVarName = "模块4湿度低";
             this.stateShow8.BackColor = System.Drawing.Color.Transparent;
             this.stateShow8.BindVarName = "模块4湿度低限";
             this.stateShow8.CurrentValue = "0.0";
@@ -371,7 +371,7 @@
             // 
             // stateShow23
             // 
-            this.stateShow23.AlarmVarName = null;
+            this.stateShow23.AlarmVarName = "模块6湿度高";
             this.stateShow23.BackColor = System.Drawing.Color.Transparent;
             this.stateShow23.BindVarName = "模块6湿度高限";
             this.stateShow23.CurrentValue = "0.0";
@@ -385,7 +385,7 @@
             // 
             // stateShow15
             // 
-            this.stateShow15.AlarmVarName = null;
+            this.stateShow15.AlarmVarName = "模块5湿度高";
             this.stateShow15.BackColor = System.Drawing.Color.Transparent;
             this.stateShow15.BindVarName = "模块5湿度高限";
             this.stateShow15.CurrentValue = "0.0";
@@ -399,7 +399,7 @@
             // 
             // stateShow7
             // 
-            this.stateShow7.AlarmVarName = null;
+            this.stateShow7.AlarmVarName = "模块4湿度高";
             this.stateShow7.BackColor = System.Drawing.Color.Transparent;
             this.stateShow7.BindVarName = "模块4湿度高限";
             this.stateShow7.CurrentValue = "0.0";
@@ -413,7 +413,7 @@
             // 
             // stateShow22
             // 
-            this.stateShow22.AlarmVarName = null;
+            this.stateShow22.AlarmVarName = "模块3湿度低";
             this.stateShow22.BackColor = System.Drawing.Color.Transparent;
             this.stateShow22.BindVarName = "模块3湿度低限";
             this.stateShow22.CurrentValue = "0.0";
@@ -427,7 +427,7 @@
             // 
             // stateShow14
             // 
-            this.stateShow14.AlarmVarName = null;
+            this.stateShow14.AlarmVarName = "模块2湿度低";
             this.stateShow14.BackColor = System.Drawing.Color.Transparent;
             this.stateShow14.BindVarName = "模块2湿度低限";
             this.stateShow14.CurrentValue = "0.0";
@@ -441,7 +441,7 @@
             // 
             // stateShow4
             // 
-            this.stateShow4.AlarmVarName = null;
+            this.stateShow4.AlarmVarName = "模块1湿度低";
             this.stateShow4.BackColor = System.Drawing.Color.Transparent;
             this.stateShow4.BindVarName = "模块1湿度低限";
             this.stateShow4.CurrentValue = "0.0";
@@ -455,7 +455,7 @@
             // 
             // stateShow21
             // 
-            this.stateShow21.AlarmVarName = null;
+            this.stateShow21.AlarmVarName = "模块6温度低";
             this.stateShow21.BackColor = System.Drawing.Color.Transparent;
             this.stateShow21.BindVarName = "模块6温度低限";
             this.stateShow21.CurrentValue = "0.0";
@@ -469,7 +469,7 @@
             // 
             // stateShow13
             // 
-            this.stateShow13.AlarmVarName = null;
+            this.stateShow13.AlarmVarName = "模块5温度低";
             this.stateShow13.BackColor = System.Drawing.Color.Transparent;
             this.stateShow13.BindVarName = "模块5温度低限";
             this.stateShow13.CurrentValue = "0.0";
@@ -483,7 +483,7 @@
             // 
             // stateShow6
             // 
-            this.stateShow6.AlarmVarName = null;
+            this.stateShow6.AlarmVarName = "模块4温度低";
             this.stateShow6.BackColor = System.Drawing.Color.Transparent;
             this.stateShow6.BindVarName = "模块4温度低限";
             this.stateShow6.CurrentValue = "0.0";
@@ -497,7 +497,7 @@
             // 
             // stateShow20
             // 
-            this.stateShow20.AlarmVarName = null;
+            this.stateShow20.AlarmVarName = "模块3湿度高";
             this.stateShow20.BackColor = System.Drawing.Color.Transparent;
             this.stateShow20.BindVarName = "模块3湿度高限";
             this.stateShow20.CurrentValue = "0.0";
@@ -511,7 +511,7 @@
             // 
             // stateShow12
             // 
-            this.stateShow12.AlarmVarName = null;
+            this.stateShow12.AlarmVarName = "模块2湿度高";
             this.stateShow12.BackColor = System.Drawing.Color.Transparent;
             this.stateShow12.BindVarName = "模块2湿度高限";
             this.stateShow12.CurrentValue = "0.0";
@@ -525,7 +525,7 @@
             // 
             // stateShow19
             // 
-            this.stateShow19.AlarmVarName = null;
+            this.stateShow19.AlarmVarName = "模块6温度高";
             this.stateShow19.BackColor = System.Drawing.Color.Transparent;
             this.stateShow19.BindVarName = "模块6温度高限";
             this.stateShow19.CurrentValue = "0.0";
@@ -539,7 +539,7 @@
             // 
             // stateShow11
             // 
-            this.stateShow11.AlarmVarName = null;
+            this.stateShow11.AlarmVarName = "模块5温度高";
             this.stateShow11.BackColor = System.Drawing.Color.Transparent;
             this.stateShow11.BindVarName = "模块5温度高限";
             this.stateShow11.CurrentValue = "0.0";
@@ -553,7 +553,7 @@
             // 
             // stateShow18
             // 
-            this.stateShow18.AlarmVarName = null;
+            this.stateShow18.AlarmVarName = "模块3温度低";
             this.stateShow18.BackColor = System.Drawing.Color.Transparent;
             this.stateShow18.BindVarName = "模块3温度低限";
             this.stateShow18.CurrentValue = "0.0";
@@ -567,7 +567,7 @@
             // 
             // stateShow3
             // 
-            this.stateShow3.AlarmVarName = null;
+            this.stateShow3.AlarmVarName = "模块1湿度高";
             this.stateShow3.BackColor = System.Drawing.Color.Transparent;
             this.stateShow3.BindVarName = "模块1湿度高限";
             this.stateShow3.CurrentValue = "0.0";
@@ -581,7 +581,7 @@
             // 
             // stateShow10
             // 
-            this.stateShow10.AlarmVarName = null;
+            this.stateShow10.AlarmVarName = "模块2温度低";
             this.stateShow10.BackColor = System.Drawing.Color.Transparent;
             this.stateShow10.BindVarName = "模块2温度低限";
             this.stateShow10.CurrentValue = "0.0";
@@ -606,7 +606,7 @@
             // 
             // stateShow5
             // 
-            this.stateShow5.AlarmVarName = null;
+            this.stateShow5.AlarmVarName = "模块4温度高";
             this.stateShow5.BackColor = System.Drawing.Color.Transparent;
             this.stateShow5.BindVarName = "模块4温度高限";
             this.stateShow5.CurrentValue = "0.0";
@@ -631,7 +631,7 @@
             // 
             // stateShow17
             // 
-            this.stateShow17.AlarmVarName = null;
+            this.stateShow17.AlarmVarName = "模块3温度高";
             this.stateShow17.BackColor = System.Drawing.Color.Transparent;
             this.stateShow17.BindVarName = "模块3温度高限";
             this.stateShow17.CurrentValue = "0.0";
@@ -645,7 +645,7 @@
             // 
             // stateShow2
             // 
-            this.stateShow2.AlarmVarName = null;
+            this.stateShow2.AlarmVarName = "模块1温度低";
             this.stateShow2.BackColor = System.Drawing.Color.Transparent;
             this.stateShow2.BindVarName = "模块1温度低限";
             this.stateShow2.CurrentValue = "0.0";
@@ -659,7 +659,7 @@
             // 
             // stateShow9
             // 
-            this.stateShow9.AlarmVarName = null;
+            this.stateShow9.AlarmVarName = "模块2温度高";
             this.stateShow9.BackColor = System.Drawing.Color.Transparent;
             this.stateShow9.BindVarName = "模块2温度高限";
             this.stateShow9.CurrentValue = "0.0";
@@ -706,7 +706,7 @@
             // 
             // stateShow1
             // 
-            this.stateShow1.AlarmVarName = null;
+            this.stateShow1.AlarmVarName = "模块1温度高";
             this.stateShow1.BackColor = System.Drawing.Color.Transparent;
             this.stateShow1.BindVarName = "模块1温度高限";
             this.stateShow1.CurrentValue = "0.0";

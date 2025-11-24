@@ -23,6 +23,19 @@ namespace thinger.MTHProject
             this.txtPort.Text = ModbusObjectTree.Device.Port.ToString();
             this.txtSlaveId.Text = ModbusObjectTree.Device.SlaveId.ToString();
             BindEvnrt();
+            GetLimitParamValue();
+            GetAlarmParam();
+
+            //设置定时器参数，并开启
+            this.updateTimer.Interval = 200;
+            this.updateTimer.Tick += UpdateTimer_Tick;
+            this.updateTimer.Start();
+
+            //窗体关闭时，同时关闭定时器
+            this.FormClosing += (sender, e) =>
+            {
+                this.updateTimer.Stop();
+            };
         }
 
         #region 确认设置按钮实现
@@ -84,11 +97,38 @@ namespace thinger.MTHProject
         // this.stateShow1.ControlDoubleClick += new System.EventHandler(this.stateShow1_ControlDoubleClick);
         private void Common_ControlDoubleClick(object sender, EventArgs e)
         {
-            MessageBox.Show("111");
+            //as返回的是对象，is返回的是bool量
+            StateShow stateShow = sender as StateShow;
+            FrmParamModity frmParamModity = new FrmParamModity(stateShow.BindVarName, stateShow.CurrentValue);
+            frmParamModity.ShowDialog();
         }
+        //复选框改变，写入报警启用变量值
         private void Common_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("222");
+            if (sender is CheckBoxEx checkBox)
+            {
+                if (checkBox.Tag != null && checkBox.Tag.ToString().Length > 0)
+                {
+                    bool result = false;
+                    try
+                    {
+                        result = ModbusObjectTree.CommonWrite(checkBox.Tag.ToString(), checkBox.Checked ? "1" : "0");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"硬件蜂鸣器报警是否启用状态更改失败: {ex.Message}", "报警提示");
+                    }
+                    finally
+                    {
+                        if (result == false)
+                        {
+                            checkBox.CheckedChanged -= Common_CheckedChanged;
+                            checkBox.Checked = !checkBox.Checked;
+                            checkBox.CheckedChanged += Common_CheckedChanged;
+                        }
+                    }
+                }
+            }
         }
         #endregion
 
@@ -103,13 +143,50 @@ namespace thinger.MTHProject
                     {
                         //获取当前要显示的值
                         string cValue = ModbusObjectTree.Device[item.BindVarName]?.ToString();
+                        if (cValue?.Length == 2)
+                        {
+                            cValue += ".";
+                            item.CurrentValue = cValue.PadRight(4, '0');
+                        }
+                        else
+                        {
+                            item.CurrentValue = cValue;
+                        }
+                    }
+                    if (item.AlarmVarName != null && item.AlarmVarName.Length > 0)
+                    {
+                        item.IsAlarm = ModbusObjectTree.Device[item.AlarmVarName]?.ToString() == "True";
+                    }
 
+                }
+            }
+        }
+
+        private Timer updateTimer = new Timer();
+        // 定时器周期触发事件，用于更新参数值和报警状态
+        private void UpdateTimer_Tick(object sender, EventArgs e)
+        {
+            if (ModbusObjectTree.Device.IsConnected)
+            {
+                GetLimitParamValue();
+            }
+        }
+
+        private void GetAlarmParam()
+        {
+            if (ModbusObjectTree.Device.IsConnected)
+            {
+                foreach (var item in this.MainPanel.Controls.OfType<CheckBoxEx>())
+                {
+                    if (item.Tag != null && item.Tag.ToString().Length > 0)
+                    {
+                        item.Checked = ModbusObjectTree.Device[item.Tag.ToString()]?.ToString() == "1";
                     }
                 }
             }
-           
-
         }
+
+
         #endregion
     }
 }
