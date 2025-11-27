@@ -78,7 +78,7 @@
             this.label2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(25, 83);
+            this.label2.Location = new System.Drawing.Point(56, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 23);
             this.label2.TabIndex = 0;
@@ -91,7 +91,7 @@
             this.label3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(25, 127);
+            this.label3.Location = new System.Drawing.Point(56, 127);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 23);
             this.label3.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.label4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(25, 184);
+            this.label4.Location = new System.Drawing.Point(56, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 23);
             this.label4.TabIndex = 0;
@@ -117,7 +117,7 @@
             this.lbl_VarName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl_VarName.ForeColor = System.Drawing.Color.White;
             this.lbl_VarName.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_VarName.Location = new System.Drawing.Point(116, 83);
+            this.lbl_VarName.Location = new System.Drawing.Point(147, 83);
             this.lbl_VarName.Name = "lbl_VarName";
             this.lbl_VarName.Size = new System.Drawing.Size(199, 23);
             this.lbl_VarName.TabIndex = 0;
@@ -130,7 +130,7 @@
             this.lbl_CurrentValue.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl_CurrentValue.ForeColor = System.Drawing.Color.White;
             this.lbl_CurrentValue.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_CurrentValue.Location = new System.Drawing.Point(116, 127);
+            this.lbl_CurrentValue.Location = new System.Drawing.Point(147, 127);
             this.lbl_CurrentValue.Name = "lbl_CurrentValue";
             this.lbl_CurrentValue.Size = new System.Drawing.Size(199, 23);
             this.lbl_CurrentValue.TabIndex = 0;
@@ -141,10 +141,12 @@
             // 
             this.txt_Value.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Value.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_Value.Location = new System.Drawing.Point(120, 179);
+            this.txt_Value.Location = new System.Drawing.Point(151, 179);
             this.txt_Value.Name = "txt_Value";
             this.txt_Value.Size = new System.Drawing.Size(195, 30);
             this.txt_Value.TabIndex = 24;
+            this.txt_Value.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_Value.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_Value_KeyDown);
             // 
             // btn_Comfirm
             // 
@@ -156,7 +158,7 @@
             this.btn_Comfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Comfirm.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Comfirm.ForeColor = System.Drawing.Color.White;
-            this.btn_Comfirm.Location = new System.Drawing.Point(29, 248);
+            this.btn_Comfirm.Location = new System.Drawing.Point(60, 248);
             this.btn_Comfirm.Name = "btn_Comfirm";
             this.btn_Comfirm.Size = new System.Drawing.Size(114, 35);
             this.btn_Comfirm.TabIndex = 25;
@@ -174,12 +176,13 @@
             this.btn_Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cancel.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Cancel.ForeColor = System.Drawing.Color.White;
-            this.btn_Cancel.Location = new System.Drawing.Point(201, 248);
+            this.btn_Cancel.Location = new System.Drawing.Point(232, 248);
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Size = new System.Drawing.Size(114, 35);
             this.btn_Cancel.TabIndex = 25;
             this.btn_Cancel.Text = "取消";
             this.btn_Cancel.UseVisualStyleBackColor = false;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
             // 
             // FrmParamModity
             // 

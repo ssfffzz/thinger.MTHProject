@@ -97,3 +97,7 @@ C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHContr
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.pdb
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.StateShow.resources
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.csproj.CopyComplete
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.StateShowEx.resources
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\obj\Debug\thinger.MTHControlLib.RecipeControl.resources
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\bin\Debug\thinger.DataModels.dll
+C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHControlLib\bin\Debug\thinger.DataModels.pdb

@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMonitor));
-            SeeSharpTools.JY.GUI.StripChartXSeries stripChartXSeries3 = new SeeSharpTools.JY.GUI.StripChartXSeries();
+            SeeSharpTools.JY.GUI.StripChartXSeries stripChartXSeries1 = new SeeSharpTools.JY.GUI.StripChartXSeries();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
             this.chartX = new SeeSharpTools.JY.GUI.StripChartX();
@@ -204,15 +204,15 @@
             this.chartX.LegendFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.chartX.LegendForeColor = System.Drawing.Color.White;
             this.chartX.LegendVisible = true;
-            stripChartXSeries3.Color = System.Drawing.Color.Red;
-            stripChartXSeries3.Marker = SeeSharpTools.JY.GUI.StripChartXSeries.MarkerType.None;
-            stripChartXSeries3.Name = "Series1";
-            stripChartXSeries3.Type = SeeSharpTools.JY.GUI.StripChartXSeries.LineType.FastLine;
-            stripChartXSeries3.Visible = true;
-            stripChartXSeries3.Width = SeeSharpTools.JY.GUI.StripChartXSeries.LineWidth.Thin;
-            stripChartXSeries3.XPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
-            stripChartXSeries3.YPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
-            this.chartX.LineSeries.Add(stripChartXSeries3);
+            stripChartXSeries1.Color = System.Drawing.Color.Red;
+            stripChartXSeries1.Marker = SeeSharpTools.JY.GUI.StripChartXSeries.MarkerType.None;
+            stripChartXSeries1.Name = "Series1";
+            stripChartXSeries1.Type = SeeSharpTools.JY.GUI.StripChartXSeries.LineType.FastLine;
+            stripChartXSeries1.Visible = true;
+            stripChartXSeries1.Width = SeeSharpTools.JY.GUI.StripChartXSeries.LineWidth.Thin;
+            stripChartXSeries1.XPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
+            stripChartXSeries1.YPlotAxis = SeeSharpTools.JY.GUI.StripChartXAxis.PlotAxis.Primary;
+            this.chartX.LineSeries.Add(stripChartXSeries1);
             this.chartX.Location = new System.Drawing.Point(789, 50);
             this.chartX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chartX.Miscellaneous.CheckInfinity = false;

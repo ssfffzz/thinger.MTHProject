@@ -91,11 +91,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RecipeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecipeControl.Designer.cs">
+      <DependentUpon>RecipeControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="StateShow.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="StateShow.Designer.cs">
       <DependentUpon>StateShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StateShowEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StateShowEx.Designer.cs">
+      <DependentUpon>StateShowEx.cs</DependentUpon>
     </Compile>
     <Compile Include="TitleShow.cs">
       <SubType>UserControl</SubType>
@@ -118,8 +130,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="RecipeControl.resx">
+      <DependentUpon>RecipeControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StateShow.resx">
       <DependentUpon>StateShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StateShowEx.resx">
+      <DependentUpon>StateShowEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TitleShow.resx">
       <DependentUpon>TitleShow.cs</DependentUpon>
@@ -139,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\thinger.DataModels\thinger.DataModels.csproj">
+      <Project>{7940abee-248e-467a-a16d-347410bb3cb2}</Project>
+      <Name>thinger.DataModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

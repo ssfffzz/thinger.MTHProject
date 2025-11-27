@@ -34,7 +34,7 @@ namespace thinger.MTHProject
             this.storeTimer.Start();
         }
 
-        
+
         #region 无边框移动
         private Point mPoint;
         private void Panel_MouseDown(object sender, MouseEventArgs e)
@@ -80,7 +80,8 @@ namespace thinger.MTHProject
         {
             //if (sender is NaviButton)
             //{
-            //    NaviButton btn =(NaviButton)sender;
+            //    NaviButton btn = (NaviButton)sender;
+            //    NaviButton btn1 = sender as NaviButton;
             //}
             if (sender is NaviButton naviButton)//这行代码等同于上面的代码,is是判断不转换类型，as是直接转换成想要的类型
             {
@@ -123,12 +124,15 @@ namespace thinger.MTHProject
                     }
                     else//如果当前窗体不是我们需要的窗体，就关闭
                     {
-                        FormNames name = (FormNames)Enum.Parse(typeof(FormNames), form.Text);
-                        if (name > FormNames.临界窗体)
+                        //FormNames name = (FormNames)Enum.Parse(typeof(FormNames), form.Text);  
+                        if (Enum.TryParse<FormNames>(form.Text, out FormNames name))
                         {
-                            form.Close();
-                            closeCount++;
-                        }
+                            if (name > FormNames.临界窗体)
+                            {
+                                form.Close();
+                                closeCount++;
+                            }
+                        }                  
                     }
                 }
             }

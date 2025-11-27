@@ -24,6 +24,7 @@ namespace thinger.MTHProject
             this.lbl_VarName.Text = varName;
             this.lbl_CurrentValue.Text = currentValue;
             this.txt_Value.Select();
+        
         }
 
         #region 无边框移动
@@ -81,16 +82,14 @@ namespace thinger.MTHProject
                     return;
                 }
 
-
                 // 根据实际业务需求调整范围
-
                 if (numericValue < 0 || numericValue > 100)
 
                 {
                     MessageBox.Show("请输入0-100范围内的数值", "输入错误");
                     return;
                 }
-                bool result = ModbusObjectTree.CommonWrite(this.lbl_VarName.Text, this.txt_Value.Text.Trim());
+                bool result = ModbusObjectTree.CommonWrite(this.lbl_VarName.Text, inputValue);
                 if (result)
                 {
                     this.DialogResult = DialogResult.OK;
@@ -98,8 +97,23 @@ namespace thinger.MTHProject
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"写入变量失败，异常信息：{ex.Message}", "写入失败");
+                MessageBox.Show($"写入参数失败，异常信息：{ex.Message}", "写入失败");
             }
         }
+
+        private void btn_Cancel_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+        }
+
+        private void txt_Value_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode==Keys.Enter)
+            {
+                btn_Comfirm_Click(null,null);
+            }
+        }
+
+       
     }
 }
