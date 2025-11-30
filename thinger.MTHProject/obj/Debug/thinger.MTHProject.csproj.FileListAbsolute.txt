@@ -264,3 +264,4 @@ C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHPr
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmConfigGroup.resources
 C:\Users\yl\Desktop\C#高阶内容\练习程序\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmConfigVariable.resources
 C:\Users\admin\Desktop\C#高阶\项目练习\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmParamModity.resources
+C:\Users\yl\Desktop\C#高阶内容\thinger.MTHProject\thinger.MTHProject\obj\Debug\thinger.MTHProject.FrmParamModity.resources

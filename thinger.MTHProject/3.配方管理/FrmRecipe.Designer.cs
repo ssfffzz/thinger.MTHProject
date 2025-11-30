@@ -33,6 +33,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            thinger.DataModels.RecipeParam recipeParam1 = new thinger.DataModels.RecipeParam();
+            thinger.DataModels.RecipeParam recipeParam2 = new thinger.DataModels.RecipeParam();
+            thinger.DataModels.RecipeParam recipeParam3 = new thinger.DataModels.RecipeParam();
+            thinger.DataModels.RecipeParam recipeParam4 = new thinger.DataModels.RecipeParam();
+            thinger.DataModels.RecipeParam recipeParam5 = new thinger.DataModels.RecipeParam();
+            thinger.DataModels.RecipeParam recipeParam6 = new thinger.DataModels.RecipeParam();
             this.panelEnhanced1 = new thinger.MTHControlLib.PanelEnhanced();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.btn_Delete = new System.Windows.Forms.Button();
@@ -41,8 +47,6 @@
             this.btn_Add = new System.Windows.Forms.Button();
             this.txt_SelectdRecipeName = new System.Windows.Forms.TextBox();
             this.dgv_RecipeList = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lbl_CurrentRecipe = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,6 +56,8 @@
             this.recipeControl5 = new thinger.MTHControlLib.RecipeControl();
             this.recipeControl3 = new thinger.MTHControlLib.RecipeControl();
             this.recipeControl1 = new thinger.MTHControlLib.RecipeControl();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RecipeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelEnhanced1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -192,7 +198,7 @@
             this.dgv_RecipeList.ColumnHeadersHeight = 35;
             this.dgv_RecipeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
+            this.RecipeName});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -222,22 +228,6 @@
             this.dgv_RecipeList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_RecipeList.Size = new System.Drawing.Size(308, 411);
             this.dgv_RecipeList.TabIndex = 54;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "GroupName";
-            this.dataGridViewTextBoxColumn1.HeaderText = "序号";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Start";
-            this.dataGridViewTextBoxColumn2.HeaderText = "配方名称";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // lbl_CurrentRecipe
             // 
@@ -275,6 +265,13 @@
             this.recipeControl6.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl6.Location = new System.Drawing.Point(678, 354);
             this.recipeControl6.Name = "recipeControl6";
+            recipeParam1.HumidityAlarmEnable = false;
+            recipeParam1.HumidityMax = 0F;
+            recipeParam1.HumidityMin = 0F;
+            recipeParam1.TempAlarmEnable = false;
+            recipeParam1.TempMax = 0F;
+            recipeParam1.TempMin = 0F;
+            this.recipeControl6.RecipeParam = recipeParam1;
             this.recipeControl6.SiteName = "模块6";
             this.recipeControl6.Size = new System.Drawing.Size(311, 324);
             this.recipeControl6.TabIndex = 0;
@@ -284,6 +281,13 @@
             this.recipeControl4.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl4.Location = new System.Drawing.Point(345, 354);
             this.recipeControl4.Name = "recipeControl4";
+            recipeParam2.HumidityAlarmEnable = false;
+            recipeParam2.HumidityMax = 0F;
+            recipeParam2.HumidityMin = 0F;
+            recipeParam2.TempAlarmEnable = false;
+            recipeParam2.TempMax = 0F;
+            recipeParam2.TempMin = 0F;
+            this.recipeControl4.RecipeParam = recipeParam2;
             this.recipeControl4.SiteName = "模块5";
             this.recipeControl4.Size = new System.Drawing.Size(311, 324);
             this.recipeControl4.TabIndex = 0;
@@ -293,6 +297,13 @@
             this.recipeControl2.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl2.Location = new System.Drawing.Point(13, 354);
             this.recipeControl2.Name = "recipeControl2";
+            recipeParam3.HumidityAlarmEnable = false;
+            recipeParam3.HumidityMax = 0F;
+            recipeParam3.HumidityMin = 0F;
+            recipeParam3.TempAlarmEnable = false;
+            recipeParam3.TempMax = 0F;
+            recipeParam3.TempMin = 0F;
+            this.recipeControl2.RecipeParam = recipeParam3;
             this.recipeControl2.SiteName = "模块4";
             this.recipeControl2.Size = new System.Drawing.Size(311, 324);
             this.recipeControl2.TabIndex = 0;
@@ -302,6 +313,13 @@
             this.recipeControl5.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl5.Location = new System.Drawing.Point(678, 23);
             this.recipeControl5.Name = "recipeControl5";
+            recipeParam4.HumidityAlarmEnable = false;
+            recipeParam4.HumidityMax = 0F;
+            recipeParam4.HumidityMin = 0F;
+            recipeParam4.TempAlarmEnable = false;
+            recipeParam4.TempMax = 0F;
+            recipeParam4.TempMin = 0F;
+            this.recipeControl5.RecipeParam = recipeParam4;
             this.recipeControl5.SiteName = "模块3";
             this.recipeControl5.Size = new System.Drawing.Size(311, 324);
             this.recipeControl5.TabIndex = 0;
@@ -311,6 +329,13 @@
             this.recipeControl3.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl3.Location = new System.Drawing.Point(345, 23);
             this.recipeControl3.Name = "recipeControl3";
+            recipeParam5.HumidityAlarmEnable = false;
+            recipeParam5.HumidityMax = 0F;
+            recipeParam5.HumidityMin = 0F;
+            recipeParam5.TempAlarmEnable = false;
+            recipeParam5.TempMax = 0F;
+            recipeParam5.TempMin = 0F;
+            this.recipeControl3.RecipeParam = recipeParam5;
             this.recipeControl3.SiteName = "模块2";
             this.recipeControl3.Size = new System.Drawing.Size(311, 324);
             this.recipeControl3.TabIndex = 0;
@@ -320,9 +345,32 @@
             this.recipeControl1.BackColor = System.Drawing.Color.Transparent;
             this.recipeControl1.Location = new System.Drawing.Point(13, 23);
             this.recipeControl1.Name = "recipeControl1";
+            recipeParam6.HumidityAlarmEnable = false;
+            recipeParam6.HumidityMax = 0F;
+            recipeParam6.HumidityMin = 0F;
+            recipeParam6.TempAlarmEnable = false;
+            recipeParam6.TempMax = 0F;
+            recipeParam6.TempMin = 0F;
+            this.recipeControl1.RecipeParam = recipeParam6;
             this.recipeControl1.SiteName = "模块1";
             this.recipeControl1.Size = new System.Drawing.Size(311, 324);
             this.recipeControl1.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "GroupName";
+            this.dataGridViewTextBoxColumn1.HeaderText = "序号";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 60;
+            // 
+            // RecipeName
+            // 
+            this.RecipeName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.RecipeName.DataPropertyName = "RecipeName";
+            this.RecipeName.HeaderText = "配方名称";
+            this.RecipeName.Name = "RecipeName";
+            this.RecipeName.ReadOnly = true;
             // 
             // FrmRecipe
             // 
@@ -357,13 +405,13 @@
         private System.Windows.Forms.Label lbl_CurrentRecipe;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgv_RecipeList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.TextBox txt_SelectdRecipeName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_Delete;
         private System.Windows.Forms.Button btn_Modify;
         private System.Windows.Forms.Button btn_Add;
         private System.Windows.Forms.Button btn_ApplyRecipe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RecipeName;
     }
 }
